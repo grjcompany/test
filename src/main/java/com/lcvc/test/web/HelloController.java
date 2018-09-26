@@ -11,7 +11,7 @@ public class HelloController {
 	 * 张三丰，20180326
 	 * 处理注销请求
 	 */
-	@RequestMapping(value = "/hello", method = RequestMethod.GET)
+	@RequestMapping(value = "/hello")
 	public String hello(){
 		return "/hello.jsp";
 	}
