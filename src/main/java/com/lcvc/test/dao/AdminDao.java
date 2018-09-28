@@ -12,7 +12,7 @@ import org.apache.ibatis.annotations.Param;
 public interface AdminDao {
 	/*
 	 * 处理数据库的登录方法
-	 * @return null表示登录失败。
+	 * @return null表示登录失败
 	 */
 	Admin login(@Param(value = "username") String username, @Param(value = "password") String password);
 	/*
