@@ -6,25 +6,30 @@ import com.lcvc.test.model.Admin;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service
-public class AdminService {
-    @Resource
-    private AdminDao adminDao;
-    /*
-        登录方法
-        @param username  账户名
-        @param password  密码
-        @return true表示登录成功，false表示登录失败
-         */
-    public boolean login(String username,String password){
-        Admin admin=adminDao.login(username, password);
-        if(admin!=null){
-           return true;
-        }else{
-            return false;
-        }
-    }
+public interface AdminService {
+    /**
+     * 登录方法
+     *
+     * @param username 账户名
+     * @param password 密码
+     * @return null表示登录失败
+     */
+    Admin login(String username, String password);
+
+    /**
+     * 获取所有账户集合
+     */
+    List<Admin> getAdmins();
+
+    /**
+     * 删除指定账户
+     * @param id
+     */
+    void deleteAdmin(Integer id);
 
 
 }
+

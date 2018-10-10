@@ -14,37 +14,34 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
-    <script language="JavaScript" src="<%=basePath%>jquery.js"></script>
-    <script>
-    $(function() {
-    $("#login_button").click(function() {
-    //使用ajax执行登录操作
-    //第一个参数指要访问的服务端地址；
-    //第二个参数，指要传递的表单的数据，$("#myForm").serialize()
-    //第三个参数，function(data)用于接收服务端返回来的值，data
-    $.post("<%=basePath%>backstage/login",
-    $("#myForm").serialize(),
-    function(data) {
-    //根据服务端返回来的值，判断登录是否成功
-    if(data.status==1){
-        alert("登录成功");
-        location.href="<%=basePath%>jsp/backstage/loginsuccess.jsp";
-    }else{
-    alert("登录失败");
-        location.href="<%=basePath%>jsp/backstage/loginerror.jsp";
-    }
-    });
-    });
-    });
-    </script>
+    <title>后台系统登录页面</title>
+    <!--导入bootstrap插件-->
+    <link rel="stylesheet" href="<%=basePath%>plugins/bootstrap/css/bootstrap.css">
+    <script src="<%=basePath%>plugins/jquery.js"></script>
+    <script type="text/javascript" src="<%=basePath%>plugins/bootstrap/js/bootstrap.js"></script>
+    <!--导入自定义样式文件-->
+    <link rel="stylesheet" href="<%=basePath%>css/mycss.css">
 </head>
 <body>
-<form id="myForm" method="post">
-账户名：<input name="username">
-密码：<input name="password">
-<input id="login_button" type="button" value="登录">
-</form>
-<div>页面内容</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            后台系统登录界面
+        </h3>
+    </div>
+    <div class="panel-body">
+        <form role="form" action="<%=basePath%>backstage/login" method="post">
+            <div class="form-group">
+                <label for="username">账户名</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="请输入账户名">
+            </div>
+            <div class="form-group">
+                <label for="password">密码</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="请输入密码">
+            </div>
+            <input type="submit" value="登录" class="btn btn-primary btn-block">
+        </form>
+    </div>
+
 </body>
 </html>
