@@ -1,0 +1,346 @@
+#containerr {
+	width: 1000px;
+	height: 720px;
+	background: #f9f7eb;
+	text-align: center;
+	margin: 0px auto;
+	border: 1px solid #cf770b;
+}
+
+
+/*导航条*/
+
+.nav li {
+	width: 100px;
+	float: right;
+	font-weight: bold;
+	line-height: 1px;
+	list-style: none;
+}
+
+.nav ul {
+	background: #f1ddba;
+	width: 1000px;
+	/*设置元素宽度为980px*/
+	border: 1px solid #cf770b;
+	/*设置一个颜色为#000，宽度为1px的边框*/
+	margin: 0px auto 0px auto;
+	/*也可以简写为margin:0 auto*/
+}
+
+.nav ul li {
+	float: right;
+	/*让li元素左浮动*/
+}
+
+.nav ul li a:hover {
+	/*这个大概的意思就是当鼠标放到这个a元素的上面时，这个a元素的样式就按下面的代码执行*/
+	width: 78px;
+	height: 26px;
+	line-height: 28px;
+	border: 1px solid red;
+	color: red;
+	background: #FFF;
+}
+
+.nav ul {
+	width: 1000px;
+	margin: 0px auto;
+	height: 38px;
+	padding: 0;
+}
+
+.nav ul li {
+	float: left;
+}
+
+.nav ul li a {
+	width: 80px;
+	height: 28px;
+	line-height: 28px;
+	background: #cf770b;
+	border-radius: 4px;
+	color: #FFF;
+	margin: 5px 10px;
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav ul li a:hover {
+	width: 78px;
+	height: 26px;
+	line-height: 28px;
+	border: 1px solid red;
+	color: red;
+	background: #FFF;
+}
+
+
+/*中部样式*/
+
+#healer {
+	/*	box-shadow: darkgrey 4px 4px 4px 1px ;//边框阴影*/
+	width: 820px;
+	height: 560px;
+	border: 1px solid #c5c1b9;
+	margin: 12px 10px 10px 20px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.tp1 {
+	width: 250px;
+	height: 260px;
+	border: 1px solid #c5c1b9;
+	margin: 10px 9px 5px 10px;
+	float: left;
+}
+
+.tl1 {
+	width: 250px;
+	height: 200px;
+	border: 1px solid #c5c1b9;
+}
+
+
+/*垂直菜单*/
+
+#you {
+	width: 132px;
+	height: 580px;
+	border: 1px solid #c5c1b9;
+	margin: 12px 10px 10px 20px;
+	float: right;
+}
+
+.cai {
+	width: 132px;
+	height: 50px;
+	border: 1px solid #c5c1b9;
+	background: #FFFFFF;
+}
+
+.nan li {
+	margin: 0px 9px 5px -40px;
+	width: 132px;
+	float: right;
+	height: 50px;
+	font-weight: bold;
+	list-style: none;
+	margin: -17px 20px 19px -2px;
+}
+
+.nan ul li a:hover {
+	/*这个大概的意思就是当鼠标放到这个a元素的上面时，这个a元素的样式就按下面的代码执行*/
+	margin: -5px 9px 5px -2px;
+	width: 78px;
+	height: 26px;
+	font-size: 20px;
+	border: 1px solid 9999cc;
+	background: #FFF;
+}
+
+
+/*.nav ul{
+border: 1px solid #c5c1b9;
+width:1000px;
+
+margin:0px auto;
+
+height:38px;
+
+padding:0;
+
+}
+*/
+
+.nan ul li {
+	float: none;
+}
+
+.nan ul li a {
+	margin: 17px 9px 5px 0px;
+	width: 132px;
+	border: 1px solid #cccccc;
+	height: 52px;
+	line-height: 50px;
+	font-size: 16px;
+	background: #FFFFFF;
+	color: #9999cc;
+	/*margin:5px 10px;*/
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nan ul li a:hover {
+	width: 132px;
+	height: 50px;
+	line-height: 53px;
+	border: 1px solid 9999cc;
+	font-size: 16px;
+	color: #9999cc;
+	margin: 16px 9px 5px -0px;
+	background: #ffcc00;
+}
+
+
+/*餐厅介绍*/
+
+#healer2 {
+	/*	box-shadow: darkgrey 4px 4px 4px 1px ;//边框阴影*/
+	width: 820px;
+	height: 560px;
+	border: 1px solid #c5c1b9;
+	margin: 12px 10px 10px 90px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.tp2 {
+	width: 250px;
+	height: 500px;
+	border: 1px solid #c5c1b9;
+	margin: 10px 9px 5px 10px;
+	float: left;
+}
+
+.tl2 {
+	width: 250px;
+	height: 200px;
+	border: 1px solid #c5c1b9;
+}
+
+
+/*底部样式*/
+
+#top {
+	width: 820px;
+	height: 30px;
+	border: 1px solid #c5c1b9;
+	background: url(../img/zxc.gif) no-repeat;
+	margin: 12px 10px 10px 20px;
+}
+
+#top2 {
+	width: 1000px;
+	height: 55px;
+	border: 1px solid #c5c1b9;
+	margin: 10px 9px 5px 0px;
+	background: #e1cba6;
+}
+
+.anniu1 {
+	width: 71px;
+	background: #db5e26;
+	height: 35px;
+	float: right;
+	margin: 6px 9px 5px 30px;
+	border-radius: 4px;
+}
+
+.anniu2 {
+	width: 71px;
+	background: #d17b14;
+	height: 35px;
+	float: right;
+	margin: 6px 9px 5px 100px;
+	border-radius: 4px;
+}
+
+.anniu3 {
+	width: 71px;
+	background: #d17b14;
+	height: 35px;
+	float: right;
+	margin: 6px 9px 5px 30px;
+	border-radius: 4px;
+}
+
+.anniu4 {
+	width: 71px;
+	background: #d17b14;
+	height: 35px;
+	float: right;
+	margin: 6px 9px 5px 200px;
+	border-radius: 4px;
+}
+
+.anniu5 {
+	width: 71px;
+	background: #d17b14;
+	height: 35px;
+	float: right;
+	margin: 6px 9px 5px 20px;
+	border-radius: 4px;
+}
+
+.anniu6 {
+	width: 71px;
+	background: #db5e26;
+	height: 35px;
+	float: right;
+	margin: 6px 9px 5px 100px;
+	color: #101010;
+	border-radius: 4px;
+}
+
+.dibuzi {
+	font-family: "宋体";
+	font-size: 8px;
+	margin-top: 8px;
+	color: #3b3b3c;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+#da {
+	width: 100%;
+	height: 60px;
+	border: 1px solid #204D74;
+	margin: 22px 9px 5px 0px;
+}
+
+.gou {
+	width: 20px;
+	height: 25px;
+	border: 1px solid #204D74;
+	float: right;
+	margin: 15px 30px 5px 10px;
+}
+
+.gou2 {
+	width: 20px;
+	height: 25px;
+	float: right;
+	border: 1px solid #204D74;
+	background: #000000;
+	margin: 55px 9px 5px 100px;
+}
+
+.yiyi {
+	color: #FF7300;
+	font-size: 18px;
+}
+/*详情/加号图标*/
+.jia {
+	width: 15px;
+	height: 15px;
+	margin: -33px 0px 0px 200px;
+	padding: 5px 5px 5px 5px;
+}
+
+.xq {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #000000;
+	width: 45px;
+	height: 30px;
+	margin: 22px 0px 0px 30px;
+}
+
+.dibuzi {
+	font-size: 13px;
+}

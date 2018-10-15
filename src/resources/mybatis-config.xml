@@ -7,11 +7,13 @@
 	<typeAliases>
 		<!-- 将com.lcvc.ebuytest3.model.Admin类重新起一个名字Admin，供mybatis的映射文件使用 -->
 		<typeAlias alias="Admin" type="com.lcvc.test.model.Admin"/>
+		<typeAlias alias="ProductType" type="com.lcvc.test.model.ProductType"/>
 	</typeAliases>
 
 	<mappers>
 		<!--注册adminMappe.xml文件 -->
 	    <mapper resource="com/lcvc/test/dao/mapper/adminMapper.xml"/>
+		<mapper resource="com/lcvc/test/dao/mapper/productTypeMapper.xml"/>
 	</mappers>
 
 
