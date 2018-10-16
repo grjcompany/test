@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- 指明这个映射文件adminMapper.xml的逻辑路径,如果与接口建立映射，那么逻辑路径应该与接口的物理路径一致-->
-<mapper namespace="com.lcvc.test.dao.AdminDao">
-    <!-- parameterType表示要传入的参数的类型 ，resultType表示要返回的数据的类型-->
+<mapper namespace="com.lcvc.test.dao.OrderDao">
+   <select id="readAll" resultType="Order">
+       select * from Order
+   </select>
 
-    <!-- 处理登录操作 -->
-    <select id="login"  resultType="Admin">
-        select * from admin where username=#{username} and password=#{password}
+<!--
+    &lt;!&ndash; 处理登录操作 &ndash;&gt;
+    <select id="login"  resultType="Order">
+        select * from order where username=#{username} and password=#{password}
     </select>
 
-<!--    <delete id="delete" >
-        delete from admin where id=#{id}
+    <delete id="delete" >
+        delete from order where id=#{id}
     </delete>
 
     <select id="get"  resultType="Admin">
-        select * from admin where id=#{id}
+        select * from order where id=#{id}
     </select>
 
     <insert id="add">
-        insert into admin(id,username,password,name)
+        insert into order(id,username,password,name)
         values(null,#{username},#{password},#{name})
     </insert>
-    <select id="readAll" resultType="Admin">
+    <select id="readAll" resultType="Order">
         select * from admin order by id asc
     </select>-->
 </mapper>
