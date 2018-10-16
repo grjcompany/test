@@ -12,12 +12,12 @@
         select * from producttype where id=#{id}
     </select>
     <insert id="save">
-        insert into producttype(id,name,linkUrl,imageUrl,intro,orderNum)
-        values(null,#{name},#{linkUrl},#{imageUrl},#{intro},#{orderNum})
+        insert into producttype(id,dessert,chinese,west,drinks,wine,cold,fish,lce,tea,noodle)
+        values(null,#{dessert},#{chinese},#{west},#{drinks},#{wine},#{cold},#{fish},#{lce},#{tea},#{noodle})
     </insert>
     <update id="update">
         update producttype
-        set name=#{name},linkUrl=#{linkUrl},imageUrl=#{imageUrl},intro=#{intro},orderNum=#{orderNum}
+        set dessert=#{dessert},chinese=#{chinese},west=#{west},drinks=#{drinks},wine=#{wine},cold=#{cold},fish=#{fish},lce=#{lce},tea=#{tea},noodle=#{noodle}
         where id=#{id}
     </update>
 
