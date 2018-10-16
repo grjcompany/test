@@ -29,4 +29,5 @@ public interface ProductTypeDao {
 	 * 编辑记录
 	 */
 	int update(ProductType productType);
+
 }

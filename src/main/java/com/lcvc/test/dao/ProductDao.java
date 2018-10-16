@@ -10,33 +10,27 @@ public interface ProductDao {
 	 */
 	List<Product> readAll();
 
-/*	*//*
-	 * 读取最新的几条记录
-	 *//*
-	List<Product> readNewTop();
-
-	*//*
-	 * 插入记录
-	 *//*
-	int save(Product product);
-
-	*//*
+    /*
 	 * 编辑记录
-	 *//*
+	 */
+
 	int update(Product product);
-
-	*//*
-	 * 读取指定记录
-	 *//*
+	
+	/*
+         * 读取指定记录
+         */
 	Product get(int id);
+	/**
+	 * 插入记录
+	 */
+	int save(Product product);
+	/*
+         * 删除指定记录
+         */
+	int delete(int id);
 
-	*//*
-	 * 获取指定栏目下的产品数量集合
-	 *//*
+	/*
+         * 获取指定栏目下的产品数量集合
+         */
 	int getNumberByProductType(int productTypeId);
-
-	*//*
-	 * 删除指定记录
-	 *//*
-	int delete(int id);*/
 }

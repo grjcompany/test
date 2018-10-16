@@ -5,4 +5,33 @@
       <select id="readAll"  resultType="Product">
         select * from product
     </select>
+
+    <insert id="save">
+        insert into
+        product(id,name,price,productTypeId)
+        values(null,#{name},#{price},#{productTypeId})
+    </insert>
+
+    <update id="update">
+        update product
+        <set>
+            <if test="productType!=null and productType.id!=null">productTypeId=#{productType.id},</if>
+            <if test="name!=null and name.length()>0">name=#{name},</if>
+            <if test="price!=null and price>0">price=#{price},</if>
+            <if test="price!=null and price>0">price=#{price},</if>
+        </set>
+        where id=#{id}
+    </update>
+
+    <select id="get"  resultMap="product">
+        select * from product where id=#{id}
+    </select>
+
+    <delete id="delete" parameterType="int">
+        delete from product where id=#{id}
+    </delete>
+
+    <select id="getNumberByProductType" resultType="int">
+        select count(id)  from product where productTypeId=#{productTypeId}
+    </select>
 </mapper>

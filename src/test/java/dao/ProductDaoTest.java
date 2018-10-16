@@ -29,6 +29,22 @@ public class ProductDaoTest extends SpringJunitTest{
 
 	@Test
 	public void saveTest(){
-
+		Product product=new Product();
+		product.setName("红烧排骨");
+		product.setPrice(3.2f);
+		product.setProductTypeId(2);
+		productDao.save(product);
 	}
+	@Test
+	public void deleteTest(){
+		System.out.println(productDao.delete(2));
+	}
+
+	@Test
+	public void updateTest(){
+		Product product=productDao.get(3);
+		product.setName("9寸蛋糕");
+		productDao.update(product);
+	}
+
 }
