@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 60011
 File Encoding         : 65001
 
-Date: 2018-10-16 11:28:23
+Date: 2018-10-16 11:57:32
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -85,7 +85,7 @@ CREATE TABLE `product` (
   `price` float(10,2) DEFAULT NULL,
   `productTypeId` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of product
@@ -93,6 +93,8 @@ CREATE TABLE `product` (
 INSERT INTO `product` VALUES ('1', '红烧肉', '28.00', '1');
 INSERT INTO `product` VALUES ('3', '红烧排骨', null, null);
 INSERT INTO `product` VALUES ('4', '红烧排骨', null, '2');
+INSERT INTO `product` VALUES ('5', '红烧排骨', null, '2');
+INSERT INTO `product` VALUES ('6', '红烧排骨', '3.20', '2');
 
 -- ----------------------------
 -- Table structure for `producttype`

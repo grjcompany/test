@@ -24,6 +24,8 @@ public class ProductDaoTest extends SpringJunitTest{
 		System.out.println(list.size());
 		for(Product product:list){
 			System.out.println(product.getName());
+			System.out.println(product.getPrice());
+			System.out.println(product.getProductTypeId());
 		}
 	}
 
@@ -37,13 +39,15 @@ public class ProductDaoTest extends SpringJunitTest{
 	}
 	@Test
 	public void deleteTest(){
-		System.out.println(productDao.delete(2));
+		System.out.println(productDao.delete(4));
 	}
 
 	@Test
 	public void updateTest(){
 		Product product=productDao.get(3);
-		product.setName("9寸蛋糕");
+		product.setName("螺蛳粉");
+		product.setPrice(38.2f);
+		product.setProductTypeId(5);
 		productDao.update(product);
 	}
 

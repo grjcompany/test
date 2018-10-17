@@ -1,11 +1,11 @@
 package com.lcvc.test.model;
 public class Order {
     private Integer id;
-    private Float picture;
+    private String picture;
     private String name;
     private Float UnitPrice;
-    private String number;
-    private  String total;
+    private Integer number;
+    private Float total;
 
     public Integer getId() {
         return id;
@@ -15,11 +15,11 @@ public class Order {
         this.id = id;
     }
 
-    public Float getPicture() {
+    public String getPicture() {
         return picture;
     }
 
-    public void setPicture(Float picture) {
+    public void setPicture(String picture) {
         this.picture = picture;
     }
 
@@ -39,19 +39,19 @@ public class Order {
         UnitPrice = unitPrice;
     }
 
-    public String getNumber() {
+    public Integer getNumber() {
         return number;
     }
 
-    public void setNumber(String number) {
+    public void setNumber(Integer number) {
         this.number = number;
     }
 
-    public String getTotal() {
+    public Float getTotal() {
         return total;
     }
 
-    public void setTotal(String total) {
+    public void setTotal(Float total) {
         this.total = total;
     }
 }

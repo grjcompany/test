@@ -9,13 +9,17 @@
 		<typeAlias alias="Admin" type="com.lcvc.test.model.Admin"/>
 		<typeAlias alias="Product" type="com.lcvc.test.model.Product"/>
 		<typeAlias alias="ProductType" type="com.lcvc.test.model.ProductType"/>
+		<typeAlias alias="Order" type="com.lcvc.test.model.Order"/>
+		<typeAlias alias="Details" type="com.lcvc.test.model.Details"/>
 	</typeAliases>
 
 	<mappers>
 		<!--注册adminMappe.xml文件 -->
 	    <mapper resource="com/lcvc/test/dao/mapper/adminMapper.xml"/>
 		<mapper resource="com/lcvc/test/dao/mapper/productMapper.xml"/>
-		<mapper resource="com/lcvc/test/dao/mapper/productMapper.xml"/>
+		<mapper resource="com/lcvc/test/dao/mapper/productTypeMapper.xml"/>
+		<mapper resource="com/lcvc/test/dao/mapper/orderMapper.xml"/>
+		<mapper resource="com/lcvc/test/dao/mapper/detailsMapper.xml"/>
 	</mappers>
 
 

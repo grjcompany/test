@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 指明这个映射文件adminMapper.xml的逻辑路径,如果与接口建立映射，那么逻辑路径应该与接口的物理路径一致-->
+<mapper namespace="com.lcvc.test.dao.DetailsDao">
+    <select id="readAll"  resultType="Details">
+        select * from details
+    </select>
+
+   <insert id="save">
+    insert into
+    product(id,name,picture,originalPrice,promotion,number,sales)
+    values(null,#{name},#{picture},#{originalPrice},#{promotion},#{number},#{sales})
+</insert>
+
+</mapper>

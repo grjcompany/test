@@ -3,7 +3,7 @@
 <!-- 指明这个映射文件adminMapper.xml的逻辑路径,如果与接口建立映射，那么逻辑路径应该与接口的物理路径一致-->
 <mapper namespace="com.lcvc.test.dao.ProductDao">
       <select id="readAll"  resultType="Product">
-        select * from product where
+        select * from product
     </select>
 
     <insert id="save">
@@ -15,7 +15,7 @@
     <update id="update">
         update product
         <set>
-            <if test="productType!=null and productType.id!=null">productTypeId=#{productType.id},</if>
+            <if test="productTypeId!=null and productTypeId!=null">productTypeId=#{productTypeId},</if>
             <if test="name!=null and name.length()>0">name=#{name},</if>
             <if test="price!=null and price>0">price=#{price},</if>
             <if test="price!=null and price>0">price=#{price},</if>
@@ -23,7 +23,7 @@
         where id=#{id}
     </update>
 
-    <select id="get"  resultMap="product">
+    <select id="get"  resultType="Product">
         select * from product where id=#{id}
     </select>
 

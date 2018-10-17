@@ -20,13 +20,21 @@ public class OrderDaoTest extends SpringJunitTest{
 		System.out.println(list.size());
 		for(Order order:list){
 			System.out.println(order.getName());
+			System.out.println(order.getNumber());
+			System.out.println(order.getPicture());
+			System.out.println(order.getTotal());
+			System.out.println(order.getUnitPrice());
 		}
 	}
 
-
-
-	@Test
+/*	@Test
 	public void saveTest(){
+		Order order=new Order();
+		order.setName("红烧排骨");
+		order.setNumber("20");
+		order.setTotal("16");
+		order.setUnitPrice(20f);
+		orderDao.save(order);
+	}*/
 
-	}
 }

@@ -2,6 +2,7 @@ package com.lcvc.test.dao;
 
 import java.util.List;
 
+import com.lcvc.test.model.Product;
 import com.lcvc.test.model.ProductType;
 
 public interface ProductTypeDao {
