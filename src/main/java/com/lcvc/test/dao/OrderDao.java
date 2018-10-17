@@ -16,9 +16,24 @@ public interface OrderDao {
 	 */
 	List<Order> readAll();
 
-	/**
-	 * 插入记录
+	/*
+         * 删除记录
+         */
+	int delete(int id);
+
+	/*
+	 * 添加记录
 	 */
 	int save(Order order);
+
+	/*
+         * 读取记录
+         */
+	Order get(int id);
+
+	/*
+	 * 编辑记录
+	 */
+	int update(Order order);
 }
 

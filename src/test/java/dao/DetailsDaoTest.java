@@ -19,7 +19,7 @@ public class DetailsDaoTest extends SpringJunitTest {
         System.out.println(list.size());
         for(Details details:list){
             System.out.println(details.getName());
-            System.out.println(details.getNumber());
+            System.out.println(details.getNum());
             System.out.println(details.getOriginalPrice());
             System.out.println(details.getPicture());
             System.out.println(details.getPromotion());
@@ -31,11 +31,28 @@ public class DetailsDaoTest extends SpringJunitTest {
     public void saveTest(){
         Details details=new Details();
         details.setName("红烧排骨");
-        details.setNumber("20");
-        details.setOriginalPrice(20.8f);
         details.setPicture("dd");
+        details.setOriginalPrice(20.8f);
         details.setPromotion(16.2f);
+        details.setNum("20");
         details.setSales("ds");
         detailsDao.save(details);
+    }
+
+    @Test
+    public void deleteTest(){
+        detailsDao.delete(2);
+    }
+
+    @Test
+    public void updateTest(){
+        Details details=detailsDao.get(1);
+        details.setName("hhh");
+        details.setPicture("ss");
+        details.setOriginalPrice(20.0f);
+        details.setPromotion(22.0f);
+        details.setNum("www");
+        details.setSales("fff");
+        detailsDao.update(details);
     }
 }

@@ -24,5 +24,20 @@ public interface DetailsDao {
 	 * 插入记录
 	 */
 	int save(Details details);
+
+	/*
+	 * 删除记录
+	 */
+	int delete(int id);
+
+	/*
+	 * 读取记录
+	 */
+	Details get(int id);
+
+	/*
+	 * 编辑记录
+	 */
+	int update(Details details);
 }
 

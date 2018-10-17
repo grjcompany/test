@@ -3,13 +3,25 @@
 <!-- 指明这个映射文件adminMapper.xml的逻辑路径,如果与接口建立映射，那么逻辑路径应该与接口的物理路径一致-->
 <mapper namespace="com.lcvc.test.dao.OrderDao">
     <select id="readAll"  resultType="Order">
-        select * from order
+        select * from orders
     </select>
 
-   <!-- <insert id="save">
-        insert into
-        product(id,name,picture,UnitPrice,number,total)
-        values(null,#{name},#{picture},#{UnitPrice},#{number},#{total})
-    </insert>-->
+    <delete id="delete">
+        delete from orders where id=#{id}
+    </delete>
 
+    <insert id="save">
+        insert into orders(id,picture,name,unitprice,num,total)
+        values(null,#{picture},#{name},#{unitprice},#{num},#{total})
+    </insert>
+
+    <select id="get"  resultType="Order">
+        select * from orders where id=#{id}
+    </select>
+
+    <update id="update">
+        update orders
+        set picture=#{picture},name=#{name},UnitPrice=#{unitprice},num=#{num},total=#{total}
+        where id=#{id}
+    </update>
 </mapper>

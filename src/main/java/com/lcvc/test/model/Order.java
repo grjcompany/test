@@ -3,8 +3,8 @@ public class Order {
     private Integer id;
     private String picture;
     private String name;
-    private Float UnitPrice;
-    private Integer number;
+    private Float unitprice;
+    private Integer num;
     private Float total;
 
     public Integer getId() {
@@ -31,20 +31,20 @@ public class Order {
         this.name = name;
     }
 
-    public Float getUnitPrice() {
-        return UnitPrice;
+    public Float getUnitprice() {
+        return unitprice;
     }
 
-    public void setUnitPrice(Float unitPrice) {
-        UnitPrice = unitPrice;
+    public void setUnitprice(Float unitprice) {
+        this.unitprice = unitprice;
     }
 
-    public Integer getNumber() {
-        return number;
+    public Integer getNum() {
+        return num;
     }
 
-    public void setNumber(Integer number) {
-        this.number = number;
+    public void setNum(Integer num) {
+        this.num = num;
     }
 
     public Float getTotal() {

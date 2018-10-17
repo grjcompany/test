@@ -8,8 +8,22 @@
 
    <insert id="save">
     insert into
-    product(id,name,picture,originalPrice,promotion,number,sales)
-    values(null,#{name},#{picture},#{originalPrice},#{promotion},#{number},#{sales})
+    details(id,name,picture,originalPrice,promotion,num,sales)
+    values(null,#{name},#{picture},#{originalPrice},#{promotion},#{num},#{sales})
 </insert>
+
+    <delete id="delete">
+        delete from details where id=#{id}
+    </delete>
+
+    <select id="get"  resultType="Details">
+        select * from details where id=#{id}
+    </select>
+
+    <update id="update">
+        update details
+        set name=#{name},picture=#{picture},originalPrice=#{originalPrice},promotion=#{promotion},num=#{num},sales=#{sales}
+        where id=#{id}
+    </update>
 
 </mapper>

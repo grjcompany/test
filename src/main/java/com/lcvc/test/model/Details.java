@@ -6,7 +6,7 @@ public class Details {
     private String picture;//产品现价
     private Float originalPrice;//产品分类Id
     private Float promotion;
-    private String number;
+    private String num;
     private String sales;
 
     public Integer getId() {
@@ -49,12 +49,12 @@ public class Details {
         this.promotion = promotion;
     }
 
-    public String getNumber() {
-        return number;
+    public String getNum() {
+        return num;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
+    public void setNum(String num) {
+        this.num = num;
     }
 
     public String getSales() {
