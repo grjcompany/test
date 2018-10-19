@@ -1,0 +1,544 @@
+﻿.bj img{
+	width: 1100px;
+	height:1000px;	
+}
+
+
+#containerr {
+	width: 1000px;
+	height: 720px;
+	background: #f9f7eb;
+	text-align: center;
+	margin: 0px auto;
+	/*边框阴影*/
+	
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	margin: 60px auto;
+}
+
+
+/*导航条*/
+
+.nav li {
+	width: 100px;
+	float: right;
+	font-weight: bold;
+	line-height: 1px;
+	list-style: none;
+}
+.nav img{
+	width: 250px;
+	height: 40px;
+	float: left;
+
+}
+.nav ul {
+	background: #efb46e;
+	width: 1000px;
+	/*边框阴影*/
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	/*设置一个颜色为#000，宽度为1px的边框*/
+	margin: 0px auto 0px auto;
+	/*也可以简写为margin:0 auto*/
+}
+
+.nav ul li a:hover {
+	/*这个大概的意思就是当鼠标放到这个a元素的上面时，这个a元素的样式就按下面的代码执行*/
+	width: 78px;
+	height: 26px;
+	line-height: 28px;
+	color: #636261;
+	background: #FFF;
+}
+
+.nav ul {
+	width: 1000px;
+	margin: 0px auto;
+	height: 38px;
+	padding: 0;
+}
+
+.nav ul li {
+	float: right;
+}
+
+.nav ul li a {
+	width: 80px;
+	height: 28px;
+	line-height: 28px;
+	background: #cf770b;
+	border-radius: 4px;
+	color: #FFF;
+	margin: 5px 10px;
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.nav ul li a:hover {
+	width: 78px;
+	height: 26px;
+	line-height: 28px;
+	color: #fffff;
+	background: #ffffff;
+}
+
+
+/*中部样式*/
+
+#healer {
+	/*	box-shadow: darkgrey 4px 4px 4px 1px ;//边框阴影*/
+	width: 820px;
+	height: 560px;
+	border: 0.1px solid #efdbb8;
+	box-shadow: darkgrey 1px 1px 1px 1px; //边框阴影
+	/*边框阴影*/
+	box-shadow: 100px 100px 1px 1px #CCCCCC;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+	margin: 12px 10px 10px 20px;
+	border-radius: 9px;
+	text-decoration: none;
+}
+
+.tp1 {
+	width: 250px;
+	height: 260px;
+	/*边框阴影*/
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+	margin: 10px 9px 5px 13px;
+	float: left;
+}
+
+.tl1 {
+	width: 250px;
+	height: 200px;
+}
+
+
+/*垂直菜单*/
+
+#you {
+	width: 132px;
+	height: 580px;
+	margin: 12px 10px 10px 20px;
+	float: right;
+}
+
+.cai {
+	width: 132px;
+	height: 50px;
+	background: #FFFFFF;
+}
+
+.nan li {
+	margin: 0px 9px 5px -40px;
+	width: 132px;
+	float: right;
+	height: 50px;
+	font-weight: bold;
+	list-style: none;
+	margin: -17px 20px 19px -2px;
+}
+
+.nan ul li a:hover {
+	/*这个大概的意思就是当鼠标放到这个a元素的上面时，这个a元素的样式就按下面的代码执行*/
+	margin: -5px 9px 5px -2px;
+	width: 78px;
+	height: 26px;
+	font-size: 20px;
+	background: #FFF;
+}
+
+.nan ul li {
+	float: none;
+}
+
+.nan ul li a {
+	margin: 17px 9px 5px 0px;
+	width: 132px;
+	/*边框阴影*/
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	height: 52px;
+	line-height: 50px;
+	font-size: 14px;
+	background: #FFFFFF;
+	color: #6b727c;
+	/*margin:5px 10px;*/
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nan ul li a:hover {
+	width: 132px;
+	height: 50px;
+	line-height: 53px;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin: 16px 9px 5px -0px;
+	background: #da8c04;
+}
+
+
+/*餐厅介绍*/
+
+#healer2 {
+	/*	box-shadow: darkgrey 4px 4px 4px 1px ;//边框阴影*/
+	width: 820px;
+	height: 560px;
+	/*border: 1px solid #c5c1b9;*/
+	margin: 12px 10px 10px 90px;
+	border-radius: 4px;
+	text-decoration: none;
+	background-color:#f9f7eb ;
+}
+
+.tp2 {
+	width: 250px;
+	height: 500px;
+	border: 1px solid #c5c1b9;
+	margin: 10px 9px 5px 10px;
+	float: left;
+}
+
+.tl2 {
+	width: 250px;
+	height: 200px;
+	border: 1px solid #c5c1b9;
+}
+
+.t13 {
+	margin-top: 50px;
+}
+
+.p {
+	line-height: 20px;
+}
+
+/*底部样式*/
+
+#top {
+	width: 820px;
+	height: 30px;
+
+	margin: 12px 10px 10px 20px;
+}
+
+#top2 {
+	width: 1000px;
+	height: 55px;
+	/*边框阴影*/
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	margin: 12px 9px 5px 0px;
+	background: #efb46e;
+}
+
+#top3 {
+	width: 1000px;
+	height: 55px;
+	/*边框阴影*/
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	margin: 55px 9px 5px 0px;
+	background: #efb46e;
+}
+#top4 {
+	width: 1000px;
+	height: 55px;
+	/*边框阴影*/
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	margin: -115px 9px 5px 460px;
+	background: #efb46e;
+}
+
+.anniu1 {
+	width: 71px;
+	background: #db5e26;
+	height: 35px;
+	float: right;
+	margin: 11px 9px 5px 30px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px #333;
+}
+
+.anniu2 {
+	width: 71px;
+	background: #eea033;
+	height: 35px;
+	float: right;
+	margin: 11px 9px 5px 100px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px #333;
+}
+
+.anniu3 {
+	width: 71px;
+	background: #eea033;
+	height: 35px;
+	float: right;
+	margin: 11px 9px 5px 30px;
+	box-shadow: 1px 1px 5px #333;
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px #333;
+}
+
+.anniu4 {
+	width: 71px;
+	background: #eea033;
+	height: 35px;
+	float: right;
+	margin: 11px 9px 5px 200px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px #333;
+}
+
+.anniu5 {
+	width: 71px;
+	background: #eea033;
+	height: 35px;
+	float: right;
+	margin: 11px 9px 5px 20px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px #333;
+}
+
+.anniu6 {
+	width: 71px;
+	background: #db5e26;
+	height: 35px;
+	float: right;
+	margin: 11px 9px 5px 100px;
+	color: #101010;
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px #333;
+}
+
+.dibuzi {
+	font-family: "宋体";
+	font-size: 8px;
+	margin-top: 8px;
+	color: #3b3b3c;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+#da {
+	width: 100%;
+	height: 60px;
+	border: 1px solid #204D74;
+	margin: 22px 9px 5px 0px;
+}
+
+.gou {
+	width: 20px;
+	height: 25px;
+	border: 1px solid #204D74;
+	float: right;
+	margin: 15px 30px 5px 10px;
+}
+
+.gou2 {
+	width: 20px;
+	height: 25px;
+	float: right;
+	border: 1px solid #204D74;
+	background: #000000;
+	margin: 55px 9px 5px 100px;
+}
+
+.yiyi {
+	color: #FF7300;
+	font-size: 18px;
+}
+
+
+/*详情/加号图标*/
+
+.jia {
+	width: 15px;
+	height: 15px;
+	margin: -33px 0px 0px 200px;
+	padding: 5px 5px 5px 5px;
+}
+
+.xq {
+	font-family: "微软雅黑";
+	font-size: 13px;
+	color: #000000;
+	width: 50px;
+	border-radius: 4px;
+	height: 30px;
+	margin: 22px 0px 0px 20px;
+	background:url(../img/147.jpg);
+	font-weight: bold;
+	line-height:30px;
+	
+}
+
+.dibuzi {
+	font-size: 13px;
+}
+
+/*.page{
+				text-align: center;
+				margin-top:;
+					margin: 20px 15px 18px 20px;
+			}
+			.page a{
+					margin: 5px 5px 5px 5px;
+				text-decoration: none;
+				border: 1px solid #f9d52b;
+				padding: 5px 7px;
+				color: #767675;
+			}*/
+	/*分页代码*/
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}		
+/*图片特效*/	
+    img{border:0}/* css 注释说明：设置图片边框为0 */ 
+    body{behavior:url("csshover.htc");text-align:center;}/* css注释说明：兼容ie6 支持标签使用hover */ 
+    .divcss5{ position:relative;width:250px; height:210px;margin:0 auto} 
+    .divcss5 a,.divcss5 span{display:none; text-decoration:none}
+    .divcss5:hover{cursor:pointer} 
+    .divcss5:hover a.now{cursor:pointer; position:absolute; top:0; width:100%; height:100%;
+     z-index:100; left:0; display:block;}
+    .divcss5:hover span{ display:block;position:absolute; bottom:0; left:0;color:#666666;width:250px; 
+    z-index:10;height:210px; line-height:36px; background:#F0AD4E;filter:alpha(opacity=60);-moz-opacity:0.5;opacity: 0.5;}
+    /* 设置显示文字定位位置，背景半透明 */ 
+    
+/*特色页面*/
+.demo{width:820px; margin:10px auto 10px auto;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+
+
+
+/*图片*/
+.box{
+	
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+	float:left;
+	 width:198px; 
+	
+	 margin-left:5px; 
+	 border:1px solid #e0e0e0; 
+	 text-align:center;
+	 margin-top: 12px;
+	 }
+.box p{
+	
+	margin-top: 12px;
+	height: 70px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+	line-height:20px; 
+	padding:4px 4px 10px 4px;
+	 text-align:left}
+.box:hover{
+	border:1px solid #f90;
+	}
+.box h4{
+	line-height:32px; 
+	font-size:13px; 
+	color:#f30;
+	font-weight:500}
+.box h4 span{
+	font-size:18px;
+	
+	}
+.u-flyer{
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;position: fixed;
+	z-index: 9999;
+	}
+/*购物车按钮设置*/
+.button {
+	margin-top: 35px;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 16px/100% 'Microsoft yahei',Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+/* 加入购物车颜色配置*/
+.orange {
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+/*鼠标移入加入购物车   背景变色*/
+.orange:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.orange:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+#shuom{
+	width: 850px;
+	height: 70px;
+	
+	margin:10px auto 10px auto;
+	
+}
+
+.zwt{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 50px;
+	text-align: center;
+	line-height: 100px;
+	margin:auto 50px;
+	color:#636261;
+}
+

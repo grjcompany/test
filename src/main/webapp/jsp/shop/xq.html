@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>商品详情</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+
+	<body class="index gview">
+		<img src="img/ipad.png"  width="2000px" height="1500px"/>
+		<div id="containerr">
+			
+			<div class="nav">
+
+				<ul>
+					<img src="img/logo.png" />
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="jieshao.html">餐厅介绍</a>
+					</li>
+					<li>
+						<a href="#">开台</a>
+					</li>
+				</ul>
+			</div>
+			<div class="bgimg"></div>
+			<jsp:include page="top.jsp" flush="true"></jsp:include>
+			<div class="main">
+
+				<div class="view-item view-item1">
+					<img alt="" src="img/528.jpg " height="400px" width="400px">
+					<div class="box-a">
+						<div class="item">
+							<h2>菠萝饭</h2>
+							<div class="prices">
+								<span>促销：￥<b>20.00</b></span>
+								<span>原价：￥<i>25.00</i></span>
+							</div>
+							<div class="js">
+								<samp>商品详情：此菠萝饭 巨好吃</samp>
+							</div>
+							<div class="BuyNo">
+								<span>我要买：<input class="num" name="ordersdt.mealCount" required="" autofocus="" min="1" value="1" type="number">份</span>
+								<span style="color: #666666;">累计销量 ： 530份</span>
+								<div class="Buybutton">
+									<a href="shopping.html"><button class="BuyB">确定</button></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<a><button class="BuyB">取消</button></a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="top2">
+				<div class="anniu6">
+					<a href="shopping.html">
+						<div class="dibuzi">我的菜单</div>
+					</a>
+				</div>
+				<div class="anniu5">
+					<a href="#">
+						<div class="dibuzi">下一页</div>
+					</a>
+				</div>
+				<div class="anniu4">
+					<a href="#">
+						<div class="dibuzi">上一页</div>
+					</a>
+				</div>
+				<div class="anniu3">
+					<a href="zeng.html">
+						<div class="dibuzi">折扣商品</div>
+					</a>
+				</div>
+				<div class="anniu2">
+					<a href="#">
+						<div class="dibuzi">今日推荐</div>
+					</a>
+				</div>
+				<!--1-->
+				<div class="anniu1">
+					<a href="javascript:;" onclick="javascript:history.back();">返回</a>
+				</div>
+
+			</div>
+		</div>
+		</div>
+		<!--<div class="quick">
+			<a class="user-profile" href="account.jsp"></a>
+			<a class="shop-cart" href="carts.jsp"></a>
+			<a class="back-top" href="#"></a>
+		</div>-->
+	</body>
+
+</html>

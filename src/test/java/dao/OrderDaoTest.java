@@ -23,7 +23,7 @@ public class OrderDaoTest extends SpringJunitTest{
 			System.out.println(order.getNum());
 			System.out.println(order.getPicture());
 			System.out.println(order.getTotal());
-			System.out.println(order.getUnitPrice());
+			System.out.println(order.getUnitprice());
 		}
 	}
 		@Test

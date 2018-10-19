@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+	<head>
+		<title>支付页面</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+
+	<body class="index payment">
+		<div class="bgimg"></div>
+		<div class="container">
+			<jsp:include page="top.jsp" flush="true"></jsp:include>
+			<div class="nav">
+				<ul>
+					<img src="img/logo.png" />
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="jieshao.html">餐厅介绍</a>
+					</li>
+					<li>
+						<a href="#">开台</a>
+					</li>
+				</ul>
+			</div>
+			<div class="address">
+				<h2>收货地址</h2>
+				<span>官塘大道123号</span>
+				<a href="#">[切换地址]</a>
+			</div>
+			<div class="detials">
+				<h2>商品清单</h2>
+				<table>
+					<thead>
+						<tr>
+							<th style="width: 28%;">名称</th>
+							<th style="width: 24%;">数量</th>
+							<th style="width: 24%;">价格</th>
+							<th style="width: 24%;">小计</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>艇仔粥</td>
+							<td>1</td>
+							<td>￥75.00</td>
+							<td>￥75.00</td>
+						</tr>
+						<tr>
+							<td>艇仔粥</td>
+							<td>1</td>
+							<td>￥75.00</td>
+							<td>￥75.00</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="main">
+				<div class="pitems">
+					<div class="item">
+						<label>付款方式：</label>
+
+						<p><span>合计：<b>￥150.00</b></span></p>
+						<p>
+							<a href="payment2.html">确认下单</a>
+						</p>
+					</div>
+				</div>
+				<div id="top4">
+					<div class="anniu6">
+						<div class="dibuzi">
+							<a href="shopping.html">我的菜单</div>
+					</div>
+					<div class="anniu5">
+						<div class="dibuzi">下一页</div>
+					</div>
+					<div class="anniu4">
+						<div class="dibuzi">上一页</div>
+					</div>
+					<div class="anniu3">
+						<div class="dibuzi">新推菜品</div>
+					</div>
+					<div class="anniu2">
+						<div class="dibuzi">特色菜品</div>
+					</div>
+					<div class="anniu1">
+						<a href="javascript:;" onclick="javascript:history.back();">返回</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
