@@ -9,6 +9,6 @@
 </head>
 <body>
 <a href="<%=basePath%>jsp/admin/signin.jsp">后台</a>
-前台
+<a href="<%=basePath%>jsp/shop/index.jsp">前台</a>
 </body>
 </html>

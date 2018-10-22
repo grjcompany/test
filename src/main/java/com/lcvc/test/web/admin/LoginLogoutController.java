@@ -14,15 +14,21 @@ public class LoginLogoutController {
 	*/
 	
 
-	@RequestMapping(value = "/admin/login", method = RequestMethod.POST)
+	@RequestMapping(value = "/admin/login")
 	public String login(String username,String password,HttpSession session){
 		if(username.equals("admin")&&password.equals("123")){
 			return "/jsp/admin/index.jsp";
 		}else{
 			return "/jsp/admin/login.jsp";
 		}
+	}
+	@RequestMapping(value = "/admin/logout")
+	public String logout(HttpSession session){
+		return "/jsp/admin/login.jsp";
 
 	}
+
+
 	
 
 }

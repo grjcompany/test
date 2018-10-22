@@ -24,7 +24,7 @@
 						<a href="">首页</a>
 					</li>
 					<li class="layui-nav-item">
-						<a href="signin.jsp">账号登录</a>
+						<a href="<%=basePath%>jsp/admin/signin.jsp">账号登录</a>
 					</li>
 					<li class="layui-nav-item">
 						<a href="javascript:;">其它系统</a>
@@ -56,7 +56,7 @@
 						</dl>
 					</li>
 					<li class="layui-nav-item">
-						<a href="">注销</a>
+						<a href="<%=basePath%>jsp/admin/quit.jsp">注销</a>
 					</li>
 				</ul>
 			</div>
@@ -79,7 +79,7 @@
 							<a class="" href="javascript:;">订单管理</a>
 							<dl class="layui-nav-child">
 								<dd>
-									<a href="order.html">添加订单</a>
+									<a href="order.jsp">添加订单</a>
 								</dd>
 								<dd>
 									<a href="javascript:;">订单列表</a>
