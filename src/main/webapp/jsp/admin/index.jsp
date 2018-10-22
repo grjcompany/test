@@ -1,3 +1,8 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+	String path = request.getContextPath();
+	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 <!DOCTYPE html>
 <html>
 
@@ -5,8 +10,8 @@
 		<meta charset="utf-8" />
 		<title>layUi后台布局</title>
 
-		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
-		<link rel="stylesheet" href="../../plugins/layui/css/layui.css">
+		<script type="text/javascript" src="<%=basePath%>jsp/admin/js/jquery-1.11.0.js" ></script>
+		<link rel="stylesheet" href="<%=basePath%>plugins/layui/css/layui.css">
 	</head>
 
 	<body class="layui-layout-body">
@@ -19,7 +24,7 @@
 						<a href="">首页</a>
 					</li>
 					<li class="layui-nav-item">
-						<a href="signin.html">账号登录</a>
+						<a href="signin.jsp">账号登录</a>
 					</li>
 					<li class="layui-nav-item">
 						<a href="javascript:;">其它系统</a>
@@ -102,14 +107,14 @@
 
 			<div id="main_div" class="layui-body">
 				<!-- 内容主体区域 -->
-				<iframe id="main_frame" src="main.html" width="100%" height="100%" frameborder="no"></iframe>
+				<iframe id="main_frame" src="<%=basePath%>jsp/admin/main.html" width="100%" height="100%" frameborder="no"></iframe>
 			</div>
 			<div class="layui-footer">
 				<!-- 底部固定区域 -->
 				© 七个人团队- 版权所有
 			</div>
 		</div>
-		<script src="plugins/layui/layui.js"></script>
+		<script src="<%=basePath%>plugins/layui/layui.js"></script>
 		<script>
 			//JavaScript代码区域
 			layui.use('element', function() {

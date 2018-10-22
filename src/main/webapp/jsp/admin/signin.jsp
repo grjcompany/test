@@ -1,4 +1,8 @@
-
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,12 +11,12 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body class="signin">
-<form action="dosignin" method="post">
+<form action="<%=basePath%>admin/login" method="post">
 	<div class="container">
 		<img alt="" src="img/logo.png" width="500px" height="200px">
 		<label class="title">用户登录</label>
 		<div class="form">
-			<input class="phone" type="text" name="phone" placeholder="请输入您的手机号码">
+			<input class="phone" type="text" name="username" placeholder="请输入您的手机号码">
 			<input class="password" type="password" name="password" placeholder="请输入您的登录密码">
 			<button class="btn" type="submit">登录</button>
 		</div>

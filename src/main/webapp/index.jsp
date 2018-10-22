@@ -1,17 +1,14 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: S6203-1-08
-  Date: 2018/10/19
-  Time: 16:41
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 <html>
 <head>
     <title>Title</title>
 </head>
 <body>
-后台
+<a href="<%=basePath%>jsp/admin/signin.jsp">后台</a>
 前台
 </body>
 </html>
