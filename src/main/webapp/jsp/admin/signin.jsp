@@ -9,11 +9,18 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <title>用户登录</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="<%=basePath%>jsp/admin/css/main.css">
+	<script language="JavaScript">
+
+        if (window != top)
+
+            top.location.href = location.href;
+
+	</script>
 </head>
 <body class="signin">
 <form action="<%=basePath%>admin/login" method="post">
 	<div class="container">
-		<img alt="" src="img/logo.png" width="500px" height="200px">
+		<img alt="" src="<%=basePath%>jsp/admin/img/logo.png" width="500px" height="200px">
 		<label class="title">用户登录（登录人数${requestScope.count}）</label>
 		<div class="form">
 			<input class="phone" type="text" name="username" placeholder="请输入您的手机号码">
