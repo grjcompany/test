@@ -25,7 +25,8 @@ public class LoginLogoutController {
 		request.setAttribute("count",15);
 		return "/jsp/admin/signin.jsp";
 	}
-	
+
+
 
 	@RequestMapping(value = "/admin/login")
 	public String login(String username,String password,HttpSession session){
