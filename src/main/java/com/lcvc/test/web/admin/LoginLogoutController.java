@@ -45,7 +45,7 @@ public class LoginLogoutController {
 	@RequestMapping(value = "/admin/logout")
 	public String logout(HttpSession session){
 		session.removeAttribute("admin");
-		return "/jsp/admin/signin.jsp";
+		return "/jsp/admin/index.jsp";
 
 	}
 
