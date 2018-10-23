@@ -8,13 +8,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <title>用户登录</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="<%=basePath%>jsp/admin/css/main.css">
 </head>
 <body class="signin">
 <form action="<%=basePath%>admin/login" method="post">
 	<div class="container">
 		<img alt="" src="img/logo.png" width="500px" height="200px">
-		<label class="title">用户登录</label>
+		<label class="title">用户登录（登录人数${requestScope.count}）</label>
 		<div class="form">
 			<input class="phone" type="text" name="username" placeholder="请输入您的手机号码">
 			<input class="password" type="password" name="password" placeholder="请输入您的登录密码">

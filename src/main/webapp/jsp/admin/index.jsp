@@ -44,7 +44,7 @@
 				<ul class="layui-nav layui-layout-right">
 					<li class="layui-nav-item">
 						<a href="javascript:;">
-							<img src="http://t.cn/RCzsdCq" class="layui-nav-img"> 贤心
+							<img src="http://t.cn/RCzsdCq" class="layui-nav-img">${sessionScope.admin.name}
 						</a>
 						<dl class="layui-nav-child">
 							<dd>
