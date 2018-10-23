@@ -18,6 +18,8 @@ public class LoginLogoutController {
 	@Resource
 	private AdminService adminService;
 
+
+
 	@RequestMapping(value = "/admin/toLogin")
 	public String toLogin(HttpServletRequest request){
 		request.setAttribute("count",15);
