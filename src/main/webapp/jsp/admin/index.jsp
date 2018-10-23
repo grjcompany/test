@@ -24,7 +24,7 @@
 						<a href="">首页</a>
 					</li>
 					<li class="layui-nav-item">
-						<a href="<%=basePath%>jsp/admin/signin.jsp">账号登录</a>
+						<a href="<%=basePath%>admin/login">账号登录</a>
 					</li>
 					<li class="layui-nav-item">
 						<a href="javascript:;">其它系统</a>
@@ -56,7 +56,7 @@
 						</dl>
 					</li>
 					<li class="layui-nav-item">
-						<a href="<%=basePath%>jsp/admin/quit.jsp">${sessionScope.admin.id}注销</a>
+						<a href="<%=basePath%>admin/logout">注销</a>
 					</li>
 				</ul>
 			</div>

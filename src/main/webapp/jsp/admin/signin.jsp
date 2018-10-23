@@ -9,6 +9,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <title>用户登录</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="<%=basePath%>jsp/admin/css/main.css">
+	<script language="JavaScript">
+
+        if (window != top)
+
+            top.location.href = location.href;
+
+	</script>
 </head>
 <body class="signin">
 <form action="<%=basePath%>admin/login" method="post">
