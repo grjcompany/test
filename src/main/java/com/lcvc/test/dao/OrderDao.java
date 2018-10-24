@@ -1,8 +1,6 @@
 package com.lcvc.test.dao;
 
 import com.lcvc.test.model.Order;
-import com.lcvc.test.model.Product;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 

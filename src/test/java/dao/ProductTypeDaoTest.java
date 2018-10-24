@@ -4,10 +4,8 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
-import com.lcvc.test.model.Product;
 import org.junit.Test;
 
-import com.lcvc.test.dao.AdminDao;
 import com.lcvc.test.dao.ProductTypeDao;
 import com.lcvc.test.model.ProductType;
 import com.lcvc.test.test.SpringJunitTest;

@@ -1,47 +1,85 @@
 package com.lcvc.test.model;
 
+public class Product {
+    private Integer id;
+    private String name;//产品名称
+    private String picture;//产品图片
+    private Float price;//产品价格
+    private Float promotion;//促销价
+    private String num;//产品数量
+    private String sales;//累计销量
+    private String total;//总计
+    private Integer productTypeId;//产品分类Id
 
-/**
- * 产品
- * 
- */
+    public Integer getId() {
+        return id;
+    }
 
-public class Product implements java.io.Serializable {
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	private Integer id;
-	private String name;//产品名称
-	private Float price;//产品现价
-	private Integer productTypeId;//产品分类Id
+    public String getName() {
+        return name;
+    }
 
-	public Integer getId() {
-		return id;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    public String getPicture() {
+        return picture;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public void setPicture(String picture) {
+        this.picture = picture;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public Float getPrice() {
+        return price;
+    }
 
-	public Float getPrice() {
-		return price;
-	}
+    public void setPrice(Float price) {
+        this.price = price;
+    }
 
-	public void setPrice(Float price) {
-		this.price = price;
-	}
+    public Float getPromotion() {
+        return promotion;
+    }
 
-	public Integer getProductTypeId() {
-		return productTypeId;
-	}
+    public void setPromotion(Float promotion) {
+        this.promotion = promotion;
+    }
 
-	public void setProductTypeId(Integer productTypeId) {
-		this.productTypeId = productTypeId;
-	}
+    public String getNum() {
+        return num;
+    }
+
+    public void setNum(String num) {
+        this.num = num;
+    }
+
+    public String getSales() {
+        return sales;
+    }
+
+    public void setSales(String sales) {
+        this.sales = sales;
+    }
+
+    public String getTotal() {
+        return total;
+    }
+
+    public void setTotal(String total) {
+        this.total = total;
+    }
+
+    public Integer getProductTypeId() {
+        return productTypeId;
+    }
+
+    public void setProductTypeId(Integer productTypeId) {
+        this.productTypeId = productTypeId;
+    }
 }

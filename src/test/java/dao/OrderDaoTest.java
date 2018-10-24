@@ -28,7 +28,7 @@ public class OrderDaoTest extends SpringJunitTest{
 	}
 		@Test
 		public void deleteTest(){
-			orderDao.delete(2);
+			orderDao.delete(1);
 		}
 
 	@Test

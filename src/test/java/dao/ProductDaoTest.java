@@ -4,13 +4,10 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
+import com.lcvc.test.model.Product;
 import org.junit.Test;
 
-import com.lcvc.test.dao.AdminDao;
 import com.lcvc.test.dao.ProductDao;
-import com.lcvc.test.dao.ProductTypeDao;
-import com.lcvc.test.model.Product;
-import com.lcvc.test.model.ProductType;
 import com.lcvc.test.test.SpringJunitTest;
 
 public class ProductDaoTest extends SpringJunitTest{
@@ -24,7 +21,12 @@ public class ProductDaoTest extends SpringJunitTest{
 		System.out.println(list.size());
 		for(Product product:list){
 			System.out.println(product.getName());
+			System.out.println(product.getNum());
 			System.out.println(product.getPrice());
+			System.out.println(product.getPicture());
+			System.out.println(product.getPromotion());
+			System.out.println(product.getSales());
+			System.out.println(product.getTotal());
 			System.out.println(product.getProductTypeId());
 		}
 	}
@@ -32,8 +34,13 @@ public class ProductDaoTest extends SpringJunitTest{
 	@Test
 	public void saveTest(){
 		Product product=new Product();
-		product.setName("红烧排骨");
-		product.setPrice(3.2f);
+		product.setName("番茄炒蛋");
+		product.setPicture("aa");
+		product.setPrice(22.2f);
+		product.setPromotion(16.2f);
+		product.setNum("20");
+		product.setSales("ds");
+		product.setTotal("cc");
 		product.setProductTypeId(2);
 		productDao.save(product);
 	}
@@ -47,6 +54,11 @@ public class ProductDaoTest extends SpringJunitTest{
 		Product product=productDao.get(3);
 		product.setName("螺蛳粉");
 		product.setPrice(38.2f);
+		product.setPicture("ss");
+		product.setPromotion(22.0f);
+		product.setNum("www");
+		product.setSales("fff");
+		product.setTotal("cc");
 		product.setProductTypeId(5);
 		productDao.update(product);
 	}

@@ -10,7 +10,7 @@
 		<typeAlias alias="Product" type="com.lcvc.test.model.Product"/>
 		<typeAlias alias="ProductType" type="com.lcvc.test.model.ProductType"/>
 		<typeAlias alias="Order" type="com.lcvc.test.model.Order"/>
-		<typeAlias alias="Details" type="com.lcvc.test.model.Details"/>
+		<typeAlias alias="Details" type="com.lcvc.test.model.Product"/>
 	</typeAliases>
 
 	<mappers>

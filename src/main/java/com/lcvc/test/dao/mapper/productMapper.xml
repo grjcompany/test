@@ -8,8 +8,8 @@
 
     <insert id="save">
         insert into
-        product(id,name,price,productTypeId)
-        values(null,#{name},#{price},#{productTypeId})
+        product(id,name,picture,price,promotion,num,sales,total,productTypeId)
+        values(null,#{name},#{picture},#{price},#{promotion},#{num},#{sales},#{total},#{productTypeId})
     </insert>
 
     <update id="update">
@@ -17,8 +17,12 @@
         <set>
             <if test="productTypeId!=null and productTypeId!=null">productTypeId=#{productTypeId},</if>
             <if test="name!=null and name.length()>0">name=#{name},</if>
+            <if test="picture!=null and picture>0">picture=#{picture},</if>
             <if test="price!=null and price>0">price=#{price},</if>
-            <if test="price!=null and price>0">price=#{price},</if>
+            <if test="promotion!=null and promotion>0">promotion=#{promotion},</if>
+            <if test="num!=null and num>0">num=#{num},</if>
+            <if test="sales!=null and sales>0">sales=#{sales},</if>
+            <if test="total!=null and total>0">total=#{total},</if>
         </set>
         where id=#{id}
     </update>
