@@ -14,12 +14,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <link rel="stylesheet" href="<%=basePath%>plugins/layui/css/layui.css" media="all">
   <!-- 注意：如果你直接复制所有代码到本地，上述css路径需要改成你本地的 -->
 </head>
+
 <body>
  
 <table class="layui-hide" id="test"></table>
               
           
-<script src="<%=basePath%>plugins/layui/layui.js" charset="utf-8"></script>
+<script src="<<%=basePath%>plugins/layui/layui.js" charset="utf-8"></script>
 <!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 --> 
  
 <script>
