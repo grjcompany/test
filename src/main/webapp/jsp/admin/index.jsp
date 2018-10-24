@@ -79,7 +79,7 @@
 							<a class="" href="javascript:;">订单管理</a>
 							<dl class="layui-nav-child">
 								<dd>
-									<a href="order.jsp">添加订单</a>
+									<a href="<%=basePath%>jsp/admin/order.jsp">添加订单</a>
 								</dd>
 								<dd>
 									<a href="javascript:;">订单列表</a>
