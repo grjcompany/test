@@ -44,7 +44,7 @@ public class OrderDaoTest extends SpringJunitTest{
 
 	@Test
 	public void updateTest(){
-		Order order=orderDao.get(1);
+		Order order= orderDao.get(1);
 		order.setPicture("aa");
 		order.setName("ss");
 		order.setNum(5);

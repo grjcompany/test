@@ -1,11 +1,11 @@
 package com.lcvc.test.model;
 public class Order {
-    private Integer id;
-    private String picture;
-    private String name;
-    private Float unitprice;
-    private Integer num;
-    private Float total;
+    private Integer id;//
+    private String picture;//图片
+    private String name;//产品名称
+    private Float unitprice;//单价
+    private Integer num;//数量
+    private Float total;//总计
 
     public Integer getId() {
         return id;
