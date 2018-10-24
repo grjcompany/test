@@ -66,10 +66,10 @@
 					<!-- 左侧导航区域（可配合layui已有的垂直导航） -->
 					<ul class="layui-nav layui-nav-tree" lay-filter="test">
 						<li class="layui-nav-item layui-nav-itemed">
-							<a class="" href="<%=basePath%>javascript:;">产品管理</a>
+							<a class="" href="javascript:;">产品管理</a>
 							<dl class="layui-nav-child">
 								<dd>
-									<a href="<%=basePath%>jsp/admin/js/product.jsp">添加产品</a>
+									<a href="<%=basePath%>jsp/admin/product.jsp">添加产品</a>
 								</dd>
 								<dd>
 									<a href="javascript:;">产品列表</a>

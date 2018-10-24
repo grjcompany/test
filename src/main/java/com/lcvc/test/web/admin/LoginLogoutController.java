@@ -41,6 +41,7 @@ public class LoginLogoutController {
 
 	@RequestMapping(value = "/admin/index")
 	public String index(HttpSession session){
+
 		return "/jsp/admin/index.jsp";
 	}
 
@@ -53,6 +54,6 @@ public class LoginLogoutController {
 	}
 
 
-	
+
 
 }
