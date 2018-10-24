@@ -9,7 +9,7 @@ public class Product {
     private String num;//产品数量
     private String sales;//累计销量
     private String total;//总计
-    private Integer productTypeId;//产品分类Id
+    private Integer productTypeId;//产品分类
 
     public Integer getId() {
         return id;

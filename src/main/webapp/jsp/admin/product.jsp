@@ -1,7 +1,7 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+  String path = request.getContextPath();
+  String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
 <!DOCTYPE html>
 <html>
@@ -14,34 +14,40 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <link rel="stylesheet" href="<%=basePath%>plugins/layui/css/layui.css" media="all">
   <!-- 注意：如果你直接复制所有代码到本地，上述css路径需要改成你本地的 -->
 </head>
-
 <body>
- 
-<table class="layui-hide" id="test"></table>
-              
-          
-<script src="<<%=basePath%>plugins/layui/layui.js" charset="utf-8"></script>
-<!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 --> 
- 
+
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+  <legend>订单列表</legend>
+</fieldset>
+
+<div class="layui-form">
+  <table class="layui-table">
+    <colgroup>
+      <col width="150">
+      <col width="150">
+      <col width="200">
+      <col>
+    </colgroup>
+    <thead>
+    <tr>
+      <th>id</th>
+      <th>产品名称</th>
+      <th>产品图片</th>
+      <th>产品价格</th>
+      <th>促销价</th>
+      <th>产品数量</th>
+      <th>累计销量</th>
+      <th>总计</th>
+      <th>产品分类</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+<script src="<%=basePath%>plugins/layui/layui.js" charset="utf-8"></script>
+<!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 -->
 <script>
-layui.use('table',
-function() {
-	var table = layui.table;
-
-	table.render({
-				elem: '#test',
-				url: '/demo/table/user/'
-    ,cellMinWidth: 80 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
-    ,cols: [[
-      {field:'id', title: 'ID', sort: true}
-      ,{field:'username', title: '产品名称'} //width 支持：数字、百分比和不填写。你还可以通过 minWidth 参数局部定义当前单元格的最小宽度，layui 2.2.1 新增
-      ,{field:'Price', title: '产品价格'}
-      ,{field:'Clss', title: '产品分类', sort: true, align: 'right'} //单元格内容水平居中
-    
-    ]]
-  });
-});
 </script>
-
 </body>
 </html>
