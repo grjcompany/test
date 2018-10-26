@@ -69,10 +69,10 @@
 							<a class="" href="javascript:;">产品管理</a>
 							<dl class="layui-nav-child">
 								<dd>
-									<a href="<%=basePath%>jsp/admin/product.jsp">添加产品</a>
+									<a href="<%=basePath%>jsp/admin/add.jsp">添加产品</a>
 								</dd>
 								<dd>
-									<a href="javascript:;">产品列表</a>
+									<a href="<%=basePath%>/admin/product">产品列表</a>
 								</dd>
 						</li>	
 						<li class="layui-nav-item layui-nav-itemed">

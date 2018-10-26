@@ -13,11 +13,55 @@ import java.util.List;
 public class ProductServiceImpl implements ProductService {
     @Resource
     private ProductDao productDao;
-    public  List<Product> getProducts()
-    {
+
+
+
+    @Override
+    public List<Product> getProducts() {
         return productDao.readAll();
     }
 
+    @Override
+    public List<Product> readNewTop() {
+        return productDao.readNewTop();
+    }
+
+    @Override
+    public int save(Product product) {
+        return 0;
+    }
+
+    @Override
+    public int delete(int id) {
+        return productDao.delete(id);
+    }
+
+    @Override
+    public int update(Product product) {
+        return productDao.update(product);
+    }
+
+
+
+
+
+
+
+
+   /* @Override
+    public Product get(int id) {
+        return null;
+    }
+
+    @Override
+    public int save(Product product) {
+        return 0;
+    }
+
+    @Override
+    public int update(Product product) {
+        return 0;
+    }*/
 
 
 }
