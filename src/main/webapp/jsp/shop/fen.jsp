@@ -92,7 +92,10 @@
 								<div class="box">
 									<img src="img/j3.jpg" >
 									<div class="box-content">
-										<span class="post">卡通恶搞打工的付说或或或或或或或或或或过过过过过过过过过过过过过过过过过过过过过过过过过过过过过造型</span>
+										<span class="post"> 产区：波尔多和特级波尔多家族（Bordeaux and Bordeaux Supérieu）
+     年份：2015
+     葡萄品种：美乐：57% 赤霞珠：43%
+     口感： 口感柔顺 果香浓郁</span>
 									</div>
 								</div>
 							</dt>
@@ -123,7 +126,7 @@
 								<div class="box">
 									<img src="img/x3.jpg" >
 									<div class="box-content">
-										<span class="post">卡通恶搞打工的付说或或或或或或或或或或过过过过过过过过过过过过过过过过过过过过过过过过过过过过过造型</span>
+										<span class="post">松软的肉，弹性十足，好嚼，甘醇中和这香甜，让人欲罢不能。既酥又烂，吃后口齿香甜。</span>
 									</div>
 								</div>
 							</dt>
@@ -156,7 +159,9 @@
 								<div class="box">
 									<img src="img/z6.jpg" >
 									<div class="box-content">
-										<span class="post">卡通恶搞打工的付说或或或或或或或或或或过过过过过过过过过过过过过过过过过过过过过过过过过过过过过造型</span>
+										<span class="post">
+  由上腰部的脊肉构成，西冷牛排按质量的不同又可分为小块西冷牛排（entrecte）和大块西冷牛排（sirloin steak）。
+  因牛下腰部运动量较菲力沙朗多，故此部位肉质较粗一点。</span>
 									</div>
 								</div>
 							</dt>
@@ -186,7 +191,7 @@
 								<div class="box">
 									<img src="img/t1.jpg" >
 									<div class="box-content">
-										<span class="post">卡通恶搞打工的付说或或或或或或或或或或过过过过过过过过过过过过过过过过过过过过过过过过过过过过过造型</span>
+										<span class="post">夹有水果酱或奶油的法式甜点。口感丰富，外脆内柔，外观五彩缤纷，精致小巧。</span>
 									</div>
 								</div>
 							</dt>
@@ -216,7 +221,7 @@
 								<div class="box">
 									<img src="img/m6.jpg" >
 									<div class="box-content">
-										<span class="post">卡通恶搞打工的付说或或或或或或或或或或过过过过过过过过过过过过过过过过过过过过过过过过过过过过过造型</span>
+										<span class="post">外观漂亮又可爱的毛毛虫面包，松软的内部组织,口味偏甜，适合于大众。</span>
 									</div>
 								</div>
 							</dt>
@@ -245,7 +250,7 @@
 								<div class="box">
 									<img src="img/y5.jpg" >
 									<div class="box-content">
-										<span class="post">卡通恶搞打工的付说或或或或或或或或或或过过过过过过过过过过过过过过过过过过过过过过过过过过过过过造型</span>
+										<span class="post">幸福是种感觉，像喝下一口奶茶，那样甜蜜。</span>
 									</div>
 								</div>
 							</dt>
