@@ -33,6 +33,7 @@
         </colgroup>
         <thead>
         <tr>
+            <th>id</th>
             <th>甜品</th>
             <th>中餐</th>
             <th>西餐</th>
@@ -48,6 +49,7 @@
         </tr>
         <c:forEach var="p" items="${requestScope.list}">
         <tr>
+            <th>${p.id}</th>
             <th>${p.dessert}</th>
             <th>${p.chinese}</th>
             <th>${p.west}</th>

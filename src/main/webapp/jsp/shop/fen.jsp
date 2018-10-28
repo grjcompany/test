@@ -1,3 +1,11 @@
+
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+	String path = request.getContextPath();
+	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 
@@ -36,7 +44,7 @@
 				<div class="nan">
 <ul>
 						<li>
-							<a href="fen.html"><img src="img/凉菜-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;全部菜单</a>
+							<a href="fen.jsp"><img src="img/凉菜-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;全部菜单</a>
 						</li>
 						<li>
 							<a href="fen1.html"><img src="img/甜点-1.png" width="20px" height="20px"/>&nbsp;&nbsp;&nbsp;&nbsp;甜点类</a>
@@ -212,8 +220,8 @@
 						</li>
 					</ul>
 				</div>
-				
-				
+
+
 				
 				
 			</div>

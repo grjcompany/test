@@ -44,7 +44,7 @@ public class ProductTypeServiceTest  extends SpringJunitTest {
         ProductType productType=productTypeService.get(1);
         productType.setDessert("红烧鲤鱼");
         productType.setChinese("好吃");
-        productType.setWest("ww");
+        productType.setWest("qq");
         productType.setDrinks("很好吃");
         productType.setWine(20);
         productType.setCold("栏目1");

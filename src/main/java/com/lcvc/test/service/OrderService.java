@@ -1,16 +1,19 @@
 package com.lcvc.test.service;
 
 
-import org.springframework.stereotype.Service;
+import com.lcvc.test.model.Order;
 
-import javax.annotation.Resource;
+import java.util.List;
 
 
 public interface OrderService {
+  /*  *//* 读取所有记录*//*
 
+    List<Order> readAll();
+*/
+   /*   获取所有账户集合*/
 
-
-
+    List<Order> getOrders();
 
 }
 
