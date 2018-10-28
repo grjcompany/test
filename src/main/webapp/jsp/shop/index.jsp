@@ -39,7 +39,7 @@
 
 					<ul>
 						<li>
-							<a href="fen.jsp"><img src="img/凉菜-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;全部菜单</a>
+							<a href="fen.jsp"><img src="img/llll.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;全部菜单</a>
 						</li>
 						<li>
 							<a href="fen1.html"><img src="img/甜点-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;甜点类</a>
@@ -57,7 +57,7 @@
 							<a href="fen5.html"><img src="img/酒水收入.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;酒水类</a>
 						</li>
 						<li>
-							<a href="fen6.html"><img src="img/凉菜-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;凉菜类</a>
+							<a href="fen6.html"><img src="img/llll.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;凉菜类</a>
 						</li>
 						<li>
 							<a href="fen7.html"><img src="img/鱼-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;鱼类类</a>
@@ -154,7 +154,7 @@
 
 							<dt>
 								<div class="box">
-									<img src="img/红烧肉.jpg" >
+									<img src="img/x3.jpg" >
 									<div class="box-content">
 										<span class="post">松软的肉，弹性十足，好嚼，甘醇中和这香甜，让人欲罢不能。既酥又烂，吃后口齿香甜。</span>
 									</div>
@@ -187,7 +187,7 @@
 
 							<dt>
 								<div class="box">
-									<img src="img/红烧小龙虾.jpg" >
+									<img src="img/t3.jpg" >
 									<div class="box-content">
 										<span class="post"> 经烘焙过后表面金黄色、凹凸的脆皮状似黄油菠萝因而得名</span>
 									</div>

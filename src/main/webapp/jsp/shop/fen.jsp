@@ -44,7 +44,7 @@
 				<div class="nan">
 <ul>
 						<li>
-							<a href="fen.jsp"><img src="img/凉菜-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;全部菜单</a>
+							<a href="fen.jsp"><img src="img/llll.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;全部菜单</a>
 						</li>
 						<li>
 							<a href="fen1.html"><img src="img/甜点-1.png" width="20px" height="20px"/>&nbsp;&nbsp;&nbsp;&nbsp;甜点类</a>
@@ -62,7 +62,7 @@
 							<a href="fen5.html"><img src="img/酒水收入.png" width="20px" height="20px"/>&nbsp;&nbsp;&nbsp;&nbsp;酒水类</a>
 						</li>
 						<li>
-							<a href="fen6.html"><img src="img/凉菜-1.png" width="20px" height="20px"/>&nbsp;&nbsp;&nbsp;&nbsp;凉菜类</a>
+							<a href="fen6.html"><img src="img/llll.png" width="20px" height="20px"/>&nbsp;&nbsp;&nbsp;&nbsp;凉菜类</a>
 						</li>
 						<li>
 							<a href="fen7.html"><img src="img/鱼-1.png" width="20px" height="20px"/>&nbsp;&nbsp;&nbsp;&nbsp;鱼类类</a>
