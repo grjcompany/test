@@ -10,7 +10,6 @@
 		<typeAlias alias="Product" type="com.lcvc.test.model.Product"/>
 		<typeAlias alias="ProductType" type="com.lcvc.test.model.ProductType"/>
 		<typeAlias alias="Order" type="com.lcvc.test.model.Order"/>
-
 	</typeAliases>
 
 	<mappers>
@@ -19,7 +18,6 @@
 		<mapper resource="com/lcvc/test/dao/mapper/productMapper.xml"/>
 		<mapper resource="com/lcvc/test/dao/mapper/productTypeMapper.xml"/>
 		<mapper resource="com/lcvc/test/dao/mapper/orderMapper.xml"/>
-
 	</mappers>
 
 

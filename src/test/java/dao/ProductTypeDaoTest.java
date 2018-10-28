@@ -53,9 +53,18 @@ public class ProductTypeDaoTest extends SpringJunitTest {
 	}
 	@Test
 	public void updateTest(){
-		ProductType p=productTypeDao.get(2);
-		p.setDessert("bb");
-		productTypeDao.update(p);
+		ProductType productType=productTypeDao.get(1);
+		productType.setDessert("红烧鲤鱼");
+		productType.setChinese("");
+		productType.setWest("ddww");
+		productType.setDrinks("qq");
+		productType.setWine(40);
+		productType.setCold("栏目1");
+		productType.setFish("cc");
+		productType.setTea("dd");
+		productType.setLce("zz");
+		productType.setNoodle("本菜品是红烧鲤鱼");
+		productTypeDao.update(productType);
 	}
 
 }

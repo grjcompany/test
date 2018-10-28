@@ -89,10 +89,10 @@
 							<a class="" href="javascript:;">分类管理</a>
 							<dl class="layui-nav-child">
 								<dd>
-									<a href="table.html">添加分类</a>
+									<a href="">添加分类</a>
 								</dd>
 								<dd>
-									<a href="javascript:;">分类列表</a>
+									<a href="<%=basePath%>/admin/producttype">分类列表</a>
 								</dd>
 						</li>	
 						<li class="layui-nav-item">
