@@ -87,7 +87,15 @@
 				<div class="tp1">
 					<div class="tl1">
 						<dl>
-							<dt><img src="img/j3.jpg" width="247px" height="210px"/></dt>
+
+							<dt>
+								<div class="box">
+									<img src="img/j3.jpg" >
+									<div class="box-content">
+										<span class="post">卡通恶搞打工的付说或或或或或或或或或或过过过过过过过过过过过过过过过过过过过过过过过过过过过过过造型</span>
+									</div>
+								</div>
+							</dt>
 							<dd>啊啊啊啊<br/>
 								<ul>
 									<li class="yiyi">$50</li>
@@ -110,7 +118,15 @@
 				<div class="tp1">
 					<div class="tl1">
 						<dl>
-							<dt><img src="img/x3.jpg" width="247px" height="210px"/></dt>
+
+							<dt>
+								<div class="box">
+									<img src="img/x3.jpg" >
+									<div class="box-content">
+										<span class="post">卡通恶搞打工的付说或或或或或或或或或或过过过过过过过过过过过过过过过过过过过过过过过过过过过过过造型</span>
+									</div>
+								</div>
+							</dt>
 							<dd>
 								<a href="#">啊啊啊啊
 									<br/>
@@ -135,7 +151,15 @@
 				<div class="tp1">
 					<div class="tl1">
 						<dl>
-							<dt><img src="img/z6.jpg" width="247px" height="210px"/></dt>
+
+							<dt>
+								<div class="box">
+									<img src="img/z6.jpg" >
+									<div class="box-content">
+										<span class="post">卡通恶搞打工的付说或或或或或或或或或或过过过过过过过过过过过过过过过过过过过过过过过过过过过过过造型</span>
+									</div>
+								</div>
+							</dt>
 							<dd>啊啊啊啊<br/>
 								<ul>
 									<li class="yiyi">$50</li>
@@ -157,7 +181,15 @@
 				<div class="tp1">
 					<div class="tl1">
 						<dl>
-							<dt><img src="img/t1.jpg" width="247px" height="210px"/></dt>
+
+							<dt>
+								<div class="box">
+									<img src="img/t1.jpg" >
+									<div class="box-content">
+										<span class="post">卡通恶搞打工的付说或或或或或或或或或或过过过过过过过过过过过过过过过过过过过过过过过过过过过过过造型</span>
+									</div>
+								</div>
+							</dt>
 							<dd>啊啊啊啊<br/>
 								<ul>
 									<li class="yiyi">$50</li>
@@ -179,7 +211,15 @@
 				<div class="tp1">
 					<div class="tl1">
 						<dl>
-							<dt><img src="img/m6.jpg" width="247px" height="210px"/></dt>
+
+							<dt>
+								<div class="box">
+									<img src="img/m6.jpg" >
+									<div class="box-content">
+										<span class="post">卡通恶搞打工的付说或或或或或或或或或或过过过过过过过过过过过过过过过过过过过过过过过过过过过过过造型</span>
+									</div>
+								</div>
+							</dt>
 							<dd>啊啊啊啊<br/>
 								<ul>
 									<li class="yiyi">$50</li>
@@ -201,7 +241,15 @@
 				<div class="tp1">
 					<div class="tl1">
 						<dl>
-							<dt><img src="img/y5.jpg" width="247px" height="210px"/></dt>
+							<dt>
+								<div class="box">
+									<img src="img/y5.jpg" >
+									<div class="box-content">
+										<span class="post">卡通恶搞打工的付说或或或或或或或或或或过过过过过过过过过过过过过过过过过过过过过过过过过过过过过造型</span>
+									</div>
+								</div>
+							</dt>
+
 							<dd>啊啊啊啊<br/>
 								<ul>
 									<li class="yiyi">$50</li>
