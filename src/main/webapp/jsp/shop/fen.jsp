@@ -1,14 +1,6 @@
 
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<%
-	String path = request.getContextPath();
-	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-%>
-
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
@@ -29,7 +21,7 @@
 				<ul>
 					<img src="img/logo.png" />
 					<li>
-						<a href="index.html">首页</a>
+						<a href="index.jsp">首页</a>
 					</li>
 					<li>
 						<a href="jieshao.html">餐厅介绍</a>
@@ -131,7 +123,7 @@
 								</div>
 							</dt>
 							<dd>
-								<a href="#">啊啊啊啊
+								<a href="#">红酒
 									<br/>
 									<ul>
 										<li class="yiyi">$50</li>

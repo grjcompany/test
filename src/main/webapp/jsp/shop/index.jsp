@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
@@ -23,7 +22,7 @@
 				<ul>
 					<img src="img/logo.png" />
 					<li>
-						<a href="index.html">首页</a>
+						<a href="index.jsp">首页</a>
 					</li>
 					<li>
 						<a href="jieshao.html">餐厅介绍</a>
@@ -154,7 +153,7 @@
 
 							<dt>
 								<div class="box">
-									<img src="img/x3.jpg" >
+									<img src="img/红烧肉.jpg" >
 									<div class="box-content">
 										<span class="post">松软的肉，弹性十足，好嚼，甘醇中和这香甜，让人欲罢不能。既酥又烂，吃后口齿香甜。</span>
 									</div>
@@ -187,7 +186,7 @@
 
 							<dt>
 								<div class="box">
-									<img src="img/t3.jpg" >
+									<img src="img/红烧小龙虾.jpg" >
 									<div class="box-content">
 										<span class="post"> 经烘焙过后表面金黄色、凹凸的脆皮状似黄油菠萝因而得名</span>
 									</div>
