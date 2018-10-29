@@ -9,7 +9,7 @@
 </head>
 <body>
 <a href="<%=basePath%>admin/toLogin">后台</a>
-<a href="<%=basePath%>jsp/shop/index.jsp">前台</a>
+<a href="<%=basePath%>shop/index">前台</a>
 <a href="<%=basePath%>ceshi.jsp">上传图片</a>
 </body>
 </html>

@@ -15,53 +15,72 @@ public class ProductServiceImpl implements ProductService {
     private ProductDao productDao;
 
 
-
     @Override
-    public List<Product> getProducts() {
+    public List<Product> getProduct() {
         return productDao.readAll();
     }
 
     @Override
-    public List<Product> readNewTop() {
-        return productDao.readNewTop();
+    public void deleteProduct(Integer id) {
+        productDao.delete(id);
     }
 
     @Override
-    public int save(Product product) {
-        return 0;
+    public void updateProduct(Product product) {
+        productDao.update(product);
     }
 
     @Override
-    public int delete(int id) {
-        return productDao.delete(id);
+    public Product get(Integer id) {
+        return productDao.get(id);
     }
 
     @Override
-    public int update(Product product) {
-        return productDao.update(product);
-    }
-
-
-
-
-
-
-
-
-   /* @Override
-    public Product get(int id) {
-        return null;
+    public List<Product> getProducts(Integer page) {
+        //每页显示记录数
+        int pageSize=6;
+        //获取产品总记录数
+        int total=productDao.getNumberOfProduct();
+        //获取最大页
+        int maxpage=0;
+        if (total % pageSize == 0) {
+            maxpage=total/pageSize;
+        }else{
+            maxpage=total/pageSize+1;
+        }
+        if(page==null){
+            page=1;
+        }
+        if(page>maxpage){
+            page=maxpage;
+        }
+        //获取数据库中的数据起始位置
+        int index=pageSize*(page-1);
+        //获取数据库中数据的结束个数（需要判定，不能超出表中的最大记录数）
+        if(total<pageSize*page){
+            pageSize=total-pageSize*(page-1);
+        }
+        //从数据库中得出记录
+        List<Product> list=productDao.getPageList(index,pageSize);
+        return list;
     }
 
     @Override
-    public int save(Product product) {
-        return 0;
+    public int maxPage() {
+        //每页显示记录数
+        int pageSize=6;
+        //获取产品总记录数
+        int total=productDao.getNumberOfProduct();
+        //获取最大页
+        int maxpage=0;
+        if (total % pageSize == 0) {
+            maxpage=total/pageSize;
+        }else{
+            maxpage=total/pageSize+1;
+        }
+        return maxpage;
     }
-
-    @Override
-    public int update(Product product) {
-        return 0;
-    }*/
-
-
 }
+
+
+

@@ -13,7 +13,7 @@
 	/*边框阴影*/
 	
 	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	margin: 60px auto;
+	margin: 0px auto;
 }
 
 
@@ -248,7 +248,7 @@
 	height: 55px;
 	/*边框阴影*/
 	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	margin: -115px 9px 5px 460px;
+	margin: -50px 9px 5px 460px;
 	background: #efb46e;
 }
 

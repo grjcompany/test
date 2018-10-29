@@ -16,12 +16,12 @@ public class ProductServiceTest extends SpringJunitTest {
 
     @Test
     public void getProductsTest(){
-        System.out.println("账户总数："+productService.getProducts().size());
+        System.out.println("账户总数："+productService.getProduct().size());
     }
 
     @Test
     public void ProductTest(){
-        List<Product> productlist=productService.getProducts();
+        List<Product> productlist=productService.getProduct();
 
         for(Product product:productlist){
             System.out.println(product.getName());
@@ -37,10 +37,30 @@ public class ProductServiceTest extends SpringJunitTest {
 
     @Test
     public void deleteTest(){
-       productService.delete(4);
+       productService.deleteProduct(46);
     }
 
+    @Test
+    public void updateTest(){
+        Product product=productService.get(46);
+        product.setName("螺蛳粉");
+        product.setPrice(38.2f);
+        product.setPicture("");
+        product.setPromotion(22.0f);
+        product.setNum("20");
+        product.setSales("30");
+        product.setTotal("60");
+        product.setProductTypeId(5);
+        productService.updateProduct(product);
+    }
 
+    @Test
+    public void getProductsOfPageTest(){
+        List<Product> productlist=productService.getProducts(9);
+        for(Product product:productlist){
+            System.out.println(product.getName());
+        }
+    }
 }
 
 

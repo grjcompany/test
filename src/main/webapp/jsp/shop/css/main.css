@@ -20,7 +20,7 @@
 	background:#efb46e;
 	border-radius: 6px;
 	margin-bottom: 120px;
-	margin-left: -240px;
+	margin-left: -240px; 
 	margin-top: -268px;
 	padding: 30px;
 	position: fixed;
@@ -110,7 +110,7 @@
 
 /*导航条*/
 .nav .nav1{
-margin: 0px 40px 50px -15px;			
+margin: 0px 40px 50px 0px;			
 }
 .nav li {
 	width: 100px;
@@ -243,7 +243,6 @@ margin: 0px 40px 50px -15px;
 	width: 50px;
 }
 /* 购物车样式 */
-
 .carts .main {
 	background-color: #f9f7eb;
 	border-radius: 3px;
@@ -251,7 +250,7 @@ margin: 0px 40px 50px -15px;
 	width: 1000px;
 	height: 720px;
 
-	margin: 60px auto;
+	margin: 0px auto;
 	text-align:center;
 	
 }
@@ -620,7 +619,7 @@ margin: 0px 40px 50px -15px;
 	border: 1px solid #ADADAD;
 	height: 720px;
 	width: 1000px;
-	margin: 60px auto;
+	margin: 0px auto;
 }
 .payment .address {
 	background-color: #fff;
@@ -781,7 +780,7 @@ margin: 0px 40px 50px -15px;
 	width: 980px;
 	height: 500px;
 	border: 1px solid #C7DDEF;
-	margin: 20px 40px 50px -10px;	
+	margin: 20px 40px 50px 10px;	
 }
 .payment1 img{
 	margin: 20px 0px 50px 0px;	
@@ -807,15 +806,15 @@ margin: 0px 40px 50px -15px;
 	width: 1000px;
 	height: 55px;
 	/*border: 1px solid #CF770B;*/
-	margin: 178px 9px 100px -78px;
-background: #efb46e;
+	margin: 240px 0px 0px -78px;
+    background: #efb46e;
 	margin-right: 100px;
 }
 #top5 {
 	width: 1000px;
 	height: 55px;
 	/*border: 1px solid #CF770B;*/
-	margin: 55px 9px 80px -15px;
+		margin: 135px 0px 0px 0px;
 background: #efb46e;
 	margin-right: 100px;
 }

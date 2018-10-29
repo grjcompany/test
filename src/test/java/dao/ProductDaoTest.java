@@ -63,4 +63,21 @@ public class ProductDaoTest extends SpringJunitTest{
 		productDao.update(product);
 	}
 
+	@Test
+	public void getPageListTest(){
+		List<Product> list=productDao.getPageList(3,7);
+		System.out.println(list.size());
+		for(Product product:list){
+			System.out.println(product.getName());
+		}
+	}
+
+	@Test
+	public void getNumberOfProduct(){
+		System.out.println(productDao.getNumberOfProduct());
+
+	}
+
+
+
 }
