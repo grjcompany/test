@@ -28,7 +28,7 @@
     </script>
 </head>
 <body>
-<form action="<%=basePath%>admin/doUpdateProductType" method="post">
+<form action="<%=basePath%>admin/doUpdateProduct" method="post">
     <div class="layui-form-item">
         <div class="layui-inline">
             <label class="layui-form-label">id</label></label>
@@ -40,88 +40,72 @@
 
     <div class="layui-form-item">
         <div class="layui-inline">
-        <label class="layui-form-label">甜品</label></label>
+        <label class="layui-form-label">产品名称</label></label>
         <div class="layui-input-block">
-            <input name="dessert" type="text" class="dfinput" value="${requestScope.p.dessert}"/><i></i></li>
+            <input name="name" type="text" class="dfinput" value="${requestScope.p.name}"/><i></i></li>
             </div>
         </div>
     </div>
 
     <div class="layui-form-item">
         <div class="layui-inline">
-        <label class="layui-form-label">中餐</label>
+        <label class="layui-form-label">产品图片</label>
         <div class="layui-input-block">
-            <input name="chinese" type="text" class="dfinput" value="${requestScope.p.chinese}"/><i></i></li>
+            <input name="picture" type="text" class="dfinput" value="${requestScope.p.picture}"/><i></i></li>
         </div>
     </div>
     </div>
 
     <div class="layui-form-item">
         <div class="layui-inline">
-            <label class="layui-form-label">西餐</label>
+            <label class="layui-form-label">产品价格</label>
             <div class="layui-input-inline">
-                <input name="west" type="text" class="dfinput" value="${requestScope.p.west}"/><i></i></li>
+                <input name="price" type="text" class="dfinput" value="${requestScope.p.price}"/><i></i></li>
             </div>
         </div>
     </div>
         <div class="layui-form-item">
             <div class="layui-inline">
-            <label class="layui-form-label">饮料</label>
+            <label class="layui-form-label">促销价</label>
             <div class="layui-input-inline">
-                <input name="drinks" type="text" class="dfinput" value="${requestScope.p.drinks}"/><i></i></li>
+                <input name="promotion" type="text" class="dfinput" value="${requestScope.p.promotion}"/><i></i></li>
             </div>
         </div>
     </div>
 
     <div class="layui-form-item">
         <div class="layui-inline">
-            <label class="layui-form-label">酒水</label>
+            <label class="layui-form-label">产品数量</label>
             <div class="layui-input-inline">
-                <input name="wine" type="text" class="dfinput" value="${requestScope.p.wine}"/><i></i></li>
+                <input name="num" type="text" class="dfinput" value="${requestScope.p.num}"/><i></i></li>
             </div>
         </div>
     </div>
         <div class="layui-form-item">
             <div class="layui-inline">
-            <label class="layui-form-label">凉菜</label>
+            <label class="layui-form-label">累计销量</label>
             <div class="layui-input-inline">
-                <input name="cold" type="text" class="dfinput" value="${requestScope.p.cold}"/><i></i></li>
+                <input name="sales" type="text" class="dfinput" value="${requestScope.p.sales}"/><i></i></li>
               </div>
             </div>
         </div>
        <div class="layui-form-item">
          <div class="layui-inline">
-            <label class="layui-form-label">鱼类</label>
+            <label class="layui-form-label">总计</label>
             <div class="layui-input-inline">
-               <input name="fish" type="text" class="dfinput" value="${requestScope.p.fish}"/><i></i></li>
+               <input name="total" type="text" class="dfinput" value="${requestScope.p.total}"/><i></i></li>
             </div>
         </div>
     </div>
 
    <div class="layui-form-item">
       <div class="layui-inline">
-        <label class="layui-form-label">冰淇淋</label>
+        <label class="layui-form-label">产品分类</label>
         <div class="layui-input-block">
-            <input name="lce" type="text" class="dfinput" value="${requestScope.p.lce}"/><i></i></li>
+            <input name="productTypeId" type="text" class="dfinput" value="${requestScope.p.productTypeId}"/><i></i></li>
         </div>
       </div>
    </div>
-    <div class="layui-form-item">
-       <div class="layui-inline">
-        <label class="layui-form-label">茶水</label>
-        <div class="layui-input-inline">
-            <input name="tea" type="text" class="dfinput" value="${requestScope.p.tea}"/><i></i></li>
-        </div>
-       </div>
-    </div>
-     <div class="layui-form-item">
-        <div class="layui-inline">
-        <label class="layui-form-label">面食</label>
-        <div class="layui-input-block">
-            <input name="noodle" type="text" class="dfinput" value="${requestScope.p.noodle}"/><i></i></li>
-           </div>
-        </div>
-     </div>
 
       <div class="layui-form-item">
          <div class="layui-inline">

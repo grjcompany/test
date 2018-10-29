@@ -8,30 +8,37 @@ import java.util.List;
 
 public interface ProductService {
     /**
-     * 读取所有记录
+     * 获取所有账户集合
      */
-  /*  List<Product> readAll();*/
+    List<Product> getProduct();
 
-    List<Product> getProducts();
-    /*
-	 * 读取最新的几条记录
-	 */
-    List<Product> readNewTop();
     /**
-     * 插入记录
+     * 删除指定账户
+     * @param id
      */
-    int save(Product product);
-
+    void deleteProduct(Integer id);
 
     /*
-     * 删除指定记录
-     */
-    int delete(int id);
-
-      /*
 	 * 编辑记录
 	 */
+    void updateProduct(Product product);
 
-    int update(Product product);
+    /*
+	 * 读取记录
+	 */
+    Product get(Integer id);
+
+    /**
+     * 显示当前页的记录数
+     * @param page 当前页
+     * @return
+     */
+    List<Product> getProducts(Integer page);
+
+    /**
+     * 获取最大页
+     * @return
+     */
+    int maxPage();
 }
 

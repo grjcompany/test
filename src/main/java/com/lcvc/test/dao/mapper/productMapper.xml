@@ -30,12 +30,21 @@
     <select id="get"  resultType="Product">
         select * from product where id=#{id}
     </select>
-
     <delete id="delete" parameterType="int">
         delete from product where id=#{id}
     </delete>
-
+    <select id="total">
+    select count(id) from product
+    </select>
     <select id="getNumberByProductType" resultType="int">
-        select count(id)  from product where productTypeId=#{productTypeId}
+    select count(id)  from product where productTypeId=#{productTypeId}
+</select>
+
+    <select id="getNumberOfProduct" resultType="int">
+    select count(id)  from product
+    </select>
+
+    <select id="getPageList"  resultType="Product">
+        select * from product order by id asc limit #{index},#{number}
     </select>
 </mapper>

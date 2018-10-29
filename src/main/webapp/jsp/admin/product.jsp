@@ -20,7 +20,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <body>
 
 <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
-  <legend>订单列表</legend>
+  <legend>产品列表</legend>
 </fieldset>
 
 <div class="layui-form">
@@ -35,7 +35,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <thead>
 
     <tr>
-      <th>id</th>
+      <th  style="text-align: center;">id</th>
       <th  style="text-align: center;">产品名称</th>
       <th style="text-align: center;">产品图片</th>
       <th style="text-align: center;">产品价格</th>
@@ -50,7 +50,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 
     <tbody>
-    <c:forEach var="p" items="${requestScope.product}">
+    <c:forEach var="p" items="${requestScope.list}">
     <tr>
       <td style="text-align: center;">${p.id }</td>
       <td style="text-align: center;">${p.name }</td>
@@ -63,8 +63,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       <td style="text-align: center;">${p.productTypeId }</td>
 
 
-      <td><a href="<%=basePath%>admin/products?id=${p.id}"class="tablelink"><a href="<%=basePath%>jsp/admin/add.jsp"> 修改</a ></a >
-        <a href="<%=basePath%>admin/products?id=${p.id}" name="delete" alt="${p.id}" class="tablelink"> 删除</a >
+      <td><a href="<%=basePath%>admin/toUpdateProduct?id=${p.id}"class="tablelink">修改</a ></a >
+        <a href="<%=basePath%>admin/doDeleteProduct?id=${p.id}" name="delete" alt="${p.id}" class="tablelink"> 删除</a >
       </td>
 
     </tr></c:forEach>

@@ -1,6 +1,7 @@
 package com.lcvc.test.dao;
 
 import com.lcvc.test.model.Product;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -42,5 +43,19 @@ public interface ProductDao {
      */
 	int delete(int id);
 
+	/**
+	 * 获取数据库中产品表记录的总数
+	 * @return
+	 */
+	int getNumberOfProduct();
+
+	int gettotal();
+	/**
+	 * 获取指定范围的记录集合
+	 * @param off 起始位置
+	 * @param number  读取几条记录
+	 * @return
+	 */
+	List<Product> getPageList(@Param(value = "index") int index, @Param(value = "number") int number);
 
 }
