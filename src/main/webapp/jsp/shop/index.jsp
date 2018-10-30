@@ -109,14 +109,14 @@
 				</div>
 				<ul>
 					<li class="xq">
-						<a href="xq.html">
+						<a href="<%=basePath%>jsp/shop/xq.html">
 							<font color="#FFFFFF">详情</font>
 						</a>
 					</li>
 				</ul>
 				<ul>
 					<li class="jia">
-						<a href="shopping.html"><img src="<%=basePath%>jsp/shop/img/b796a067e769.jpg" /></a>
+						<a href="<%=basePath%>jsp/shop/shopping.html"><img src="<%=basePath%>jsp/shop/img/b796a067e769.jpg" /></a>
 					</li>
 				</ul>
 			</div></c:forEach>
@@ -141,7 +141,7 @@
 
 	<div id="top2">
 		<div class="anniu6">
-			<a href="shopping.html">
+			<a href="<%=basePath%>jsp/shop/shopping.jsp">
 				<div class="dibuzi">我的菜单</div>
 			</a>
 		</div>
@@ -156,7 +156,7 @@
 			</a>
 		</div>
 		<div class="anniu3">
-			<a href="zeng.html">
+			<a href="<%=basePath%>jsp/shop/zeng.html">
 				<div class="dibuzi">折扣商品</div>
 			</a>
 		</div>
