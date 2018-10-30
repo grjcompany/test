@@ -4,12 +4,11 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
-		<link rel="stylesheet" href="zzz/bootstrap/css/bootstrap.min.css">
-		<script src="zzz/bootstrap/jquery.min.js"></script>
-		<script src="zzz/bootstrap/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="css/qqq.css" type="text/css"/>
-		<link rel="stylesheet" href="css/global.css" type="text/css" />
-
+		<link rel="stylesheet" href="<%=basePath%>plugins/bootstrap/css/bootstrap.min.css">
+		<script src="<%=basePath%>plugins/bootstrap/jquery.min.js"></script>
+		<script src="<%=basePath%>plugins/bootstrap/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="<%=basePath%>jsp/shop/css/qqq.css" type="text/css" />
+		<link rel="stylesheet" href="<%=basePath%>jsp/shop/css/global.css" type="text/css" />
 	</head>
 
 	<body>
@@ -267,8 +266,8 @@
 				</div>
 
 
-				
-				
+
+
 			</div>
 
 			<ul class="pagination">

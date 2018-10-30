@@ -26,7 +26,7 @@
 			<div class="nav">
 
 				<ul>
-					<img src="img/logo.png" />
+					<img src="<%=basePath%>jsp/shop/img/logo.png" />
 					<li>
 						<a href="index.jsp">首页</a>
 					</li>
@@ -45,38 +45,38 @@
 
 			<ul>
 				<li>
-					<a href="fen.jsp"><img src="img/llll.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;全部菜单</a>
+					<a href="<%=basePath%>jsp/shop/fen.jsp"><img src="<%=basePath%>jsp/shop/img//餐品会-西餐.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;全部菜单</a>
 				</li>
 				<li>
-					<a href="fen1.html"><img src="img/甜点-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;甜点类</a>
+					<a href="fen1.html"><img src="<%=basePath%>jsp/shop/img/甜点-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;甜点类</a>
 				</li>
 				<li>
-					<a href="fen2.html"><img src="img/中餐(1).png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;中餐类</a>
+					<a href="fen2.html"><img src="<%=basePath%>jsp/shop/img/中餐(1).png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;中餐类</a>
 				</li>
 				<li>
-					<a href="fen3.html"><img src="img/餐品会-西餐.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;西餐类</a>
+					<a href="fen3.html"><img src="<%=basePath%>jsp/shop/img/餐品会-西餐.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;西餐类</a>
 				</li>
 				<li>
-					<a href="fen4.html"><img src="img/饮料-2.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;饮料类</a>
+					<a href="fen4.html"><img src="<%=basePath%>jsp/shop/img/饮料-2.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;饮料类</a>
 				</li>
 				<li>
-					<a href="fen5.html"><img src="img/酒水收入.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;酒水类</a>
+					<a href="fen5.html"><img src="<%=basePath%>jsp/shop/img/酒水收入.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;酒水类</a>
 				</li>
 				<li>
-					<a href="fen6.html"><img src="img/llll.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;凉菜类</a>
+					<a href="fen6.html"><img src="<%=basePath%>jsp/shop/img/中餐(1).png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;凉菜类</a>
 				</li>
 				<li>
-					<a href="fen7.html"><img src="img/鱼-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;鱼类类</a>
+					<a href="fen7.html"><img src="<%=basePath%>jsp/shop/img/鱼-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;鱼类类</a>
 				</li>
 				<li>
-					<a href="fen8.html"><img src="img/冰淇淋.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;冰淇淋</a>
+					<a href="fen8.html"><img src="<%=basePath%>jsp/shop/img/冰淇淋.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;冰淇淋</a>
 				</li>
 				<li>
-					<a href="fen9.html"><img src="img/茶水饮料.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;茶水类</a>
+					<a href="fen9.html"><img src="<%=basePath%>jsp/shop/img/茶水饮料.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;茶水类</a>
 				</li>
 
 				<li>
-					<a href="fen10.html"><img src="img/面食.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;面食类</a>
+					<a href="fen10.html"><img src="<%=basePath%>jsp/shop/img/面食.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;面食类</a>
 				</li>
 			</ul>
 		</div>
@@ -92,7 +92,8 @@
                         <dl>
                             <dt>
                                 <div class="box">
-                                    <img src="img/x2.jpg" >
+
+                                    <img src="${p.picture }" >
                                     <div class="box-content">
                                         <span class="post">五香加八大味共计十三种香料，而是多种乃至几十种香料的结合。口感丰富有层次，有营养</span>
                                     </div>
@@ -115,7 +116,7 @@
 				</ul>
 				<ul>
 					<li class="jia">
-						<a href="shopping.html"><img src="img/b796a067e769.jpg" /></a>
+						<a href="shopping.html"><img src="<%=basePath%>jsp/shop/img/b796a067e769.jpg" /></a>
 					</li>
 				</ul>
 			</div></c:forEach>
@@ -132,19 +133,19 @@
 			<a href="">1</a>
 		</li>
 		<li>
-			<a href="">1</a>
+			<a href="">2</a>
 		</li>
 		<li>
-			<a href="">1</a>
+			<a href="">3</a>
 		</li>
 		<li>
-			<a href="">1</a>
+			<a href="">5</a>
 		</li>
 		<li>
-			<a href="">1</a>
+			<a href="">6</a>
 		</li>
 		<li>
-			<a href="">1</a>
+			<a href="">7</a>
 		</li>
 		<li>
 			<a href="#">»</a>
