@@ -45,6 +45,8 @@ public class ProductController  extends SpringJunitTest {
         request.setAttribute("list", productService.getProduct());
         return "/jsp/admin/product.jsp";
     }
+
+
 }
 
 

@@ -28,7 +28,7 @@
 				<ul>
 					<img src="<%=basePath%>jsp/shop/img/logo.png" />
 					<li>
-						<a href="index.jsp">首页</a>
+						<a href="<%=basePath%>shop/index">首页</a>
 					</li>
 					<li>
 						<a href="jieshao.html">餐厅介绍</a>
@@ -45,38 +45,38 @@
 
 			<ul>
 				<li>
-					<a href="<%=basePath%>jsp/shop/fen.jsp"><img src="<%=basePath%>jsp/shop/img//餐品会-西餐.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;全部菜单</a>
+					<a href="<%=basePath%>jsp/shop/fen.html"><img src="<%=basePath%>jsp/shop/img//餐品会-西餐.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;全部菜单</a>
 				</li>
 				<li>
-					<a href="fen1.html"><img src="<%=basePath%>jsp/shop/img/甜点-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;甜点类</a>
+					<a href="<%=basePath%>jsp/shop/fen1.html"><img src="<%=basePath%>jsp/shop/img/甜点-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;甜点类</a>
 				</li>
 				<li>
-					<a href="fen2.html"><img src="<%=basePath%>jsp/shop/img/中餐(1).png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;中餐类</a>
+					<a href="<%=basePath%>jsp/shop/fen2.html"><img src="<%=basePath%>jsp/shop/img/中餐(1).png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;中餐类</a>
 				</li>
 				<li>
-					<a href="fen3.html"><img src="<%=basePath%>jsp/shop/img/餐品会-西餐.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;西餐类</a>
+					<a href="<%=basePath%>jsp/shop/fen3.html"><img src="<%=basePath%>jsp/shop/img/餐品会-西餐.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;西餐类</a>
 				</li>
 				<li>
-					<a href="fen4.html"><img src="<%=basePath%>jsp/shop/img/饮料-2.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;饮料类</a>
+					<a href="<%=basePath%>jsp/shop/fen4.html"><img src="<%=basePath%>jsp/shop/img/饮料-2.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;饮料类</a>
 				</li>
 				<li>
-					<a href="fen5.html"><img src="<%=basePath%>jsp/shop/img/酒水收入.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;酒水类</a>
+					<a href="<%=basePath%>jsp/shop/fen5.html"><img src="<%=basePath%>jsp/shop/img/酒水收入.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;酒水类</a>
 				</li>
 				<li>
-					<a href="fen6.html"><img src="<%=basePath%>jsp/shop/img/中餐(1).png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;凉菜类</a>
+					<a href="<%=basePath%>jsp/shop/fen6.html"><img src="<%=basePath%>jsp/shop/img/中餐(1).png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;凉菜类</a>
 				</li>
 				<li>
-					<a href="fen7.html"><img src="<%=basePath%>jsp/shop/img/鱼-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;鱼类类</a>
+					<a href="<%=basePath%>jsp/shop/fen7.html"><img src="<%=basePath%>jsp/shop/img/鱼-1.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;鱼类类</a>
 				</li>
 				<li>
-					<a href="fen8.html"><img src="<%=basePath%>jsp/shop/img/冰淇淋.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;冰淇淋</a>
+					<a href="<%=basePath%>jsp/shop/fen8.html"><img src="<%=basePath%>jsp/shop/img/冰淇淋.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;冰淇淋</a>
 				</li>
 				<li>
-					<a href="fen9.html"><img src="<%=basePath%>jsp/shop/img/茶水饮料.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;茶水类</a>
+					<a href="<%=basePath%>jsp/shop/fen9.html"><img src="<%=basePath%>jsp/shop/img/茶水饮料.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;茶水类</a>
 				</li>
 
 				<li>
-					<a href="fen10.html"><img src="<%=basePath%>jsp/shop/img/面食.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;面食类</a>
+					<a href="<%=basePath%>jsp/shop/fen10.html"><img src="<%=basePath%>jsp/shop/img/面食.png" width="20px" height="20px" />&nbsp;&nbsp;&nbsp;&nbsp;面食类</a>
 				</li>
 			</ul>
 		</div>
@@ -93,9 +93,9 @@
                             <dt>
                                 <div class="box">
 
-                                    <img src="${p.picture }" >
+                                    <img src="<%=basePath%>${p.picture }" >
                                     <div class="box-content">
-                                        <span class="post">五香加八大味共计十三种香料，而是多种乃至几十种香料的结合。口感丰富有层次，有营养</span>
+                                        <span class="post">${p.total }</span>
                                     </div>
                                 </div>
                             </dt>
