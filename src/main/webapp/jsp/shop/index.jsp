@@ -86,7 +86,6 @@
 	<div id="healer">
 		<c:forEach var="p" items="${requestScope.newProduct}">
 			<div class="tp1">
-
 					<div class="tl1">
 
                         <dl>
@@ -128,24 +127,11 @@
 		<li>
 			<a href="" onclick="">«</a>
 		</li>
+		<c:forEach var="index" begin="1"  end="${requestScope.maxPage}" step="1">
 		<li>
-			<a href="">1</a>
+			<a href="<%=basePath%>shop/index?page=${index}">${index}</a>
 		</li>
-		<li>
-			<a href="">1</a>
-		</li>
-		<li>
-			<a href="">1</a>
-		</li>
-		<li>
-			<a href="">1</a>
-		</li>
-		<li>
-			<a href="">1</a>
-		</li>
-		<li>
-			<a href="">1</a>
-		</li>
+		</c:forEach>
 		<li>
 			<a href="#">»</a>
 		</li>
