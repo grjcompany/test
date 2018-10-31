@@ -618,5 +618,33 @@ box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 .box .icon li{
 	display: inline-block;
 }
+/*特色菜单*/
+#healer3{
+	width: 820px;
+	height: 560px;
+
+	/*border: 1px solid #c5c1b9;*/
+	margin: 12px 10px 10px 90px;
+	border-radius: 2px;
+	text-decoration: none;
+	background-color:#f9f7eb ;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+
+}
+.tsc{
+	width:273px;
+	height: 370px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+	float: right;
+	margin-top: 120px ;
+}
+
+.tse1{
+	width:250px;
+	height: 190px;
+	border: 1px solid #0C0C0C;
+	margin: 9px 0px 0px 12px;
+}
+
 
 
