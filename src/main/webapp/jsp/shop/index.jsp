@@ -31,10 +31,10 @@
 						<a href="<%=basePath%>shop/index">首页</a>
 					</li>
 					<li>
-						<a href="jieshao.html">餐厅介绍</a>
+						<a href="<%=basePath%>jsp/shop/jieshao.html">餐厅介绍</a>
 					</li>
 					<li>
-						<a href="#">开台</a>
+						<a href="<%=basePath%>jsp/shop/signin1.html">开台</a>
 					</li>
 				</ul>
 			</div>
