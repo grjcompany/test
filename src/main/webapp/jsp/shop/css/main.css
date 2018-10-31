@@ -74,7 +74,7 @@
 	width: 262px;
 }
 .signin .container .treaty {
-	margin: 10px auto 0 auto;
+
 	text-align: left;
 	width: 262px;
 }
@@ -248,9 +248,9 @@ margin: 0px 40px 50px 0px;
 	border-radius: 3px;
 	display: inline-block;
 	width: 1000px;
-	height: 720px;
+	height: 650px;
 
-	margin: 0px auto;
+
 	text-align:center;
 	
 }
@@ -412,11 +412,11 @@ margin: 0px 40px 50px 0px;
 
 #containerr {
 	background: #F9F7EB;
-	border: 1px solid #cf770b;
+
 	height: 720px;
 	width: 1000px;
 	margin: 0px auto;
-	margin: 60px auto;
+
 }
 
 #main {
@@ -616,10 +616,10 @@ margin: 0px 40px 50px 0px;
 
 /* 支付页面 */
 .payment .container{
-	border: 1px solid #ADADAD;
-	height: 720px;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	height: 677px;
 	width: 1000px;
-	margin: 60px auto;
+
 }
 .payment .address {
 	background-color: #fff;
@@ -779,34 +779,34 @@ margin: 0px 40px 50px 0px;
 .payment1{
 	width: 980px;
 	height: 500px;
-	border: 1px solid #C7DDEF;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 	margin: 20px 40px 50px 10px;
 }
 .payment1 img{
-	margin: 20px 0px 50px 0px;	
-	border: 2px solid #DA8C04;
+	margin: 20px 0px 50px 0px;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 /*底部*/
 #top2 {
 	width: 1000px;
-	height: 55px;
-	border: 1px solid #c5c1b9;
-	margin: 78px 9px 5px 0px;
+	height: 50px;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	margin: 50px 9px 5px 0px;
 	background: #efb46e;
 }
 #top3 {
 	width: 1000px;
 	height: 55px;
-	border: 1px solid #c5c1b9;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 	margin: 88px 9px 5px 0px;
 	background: #efb46e;
 }
 #top4 {
 	width: 1000px;
-	height: 55px;
+	height: 50px;
 	/*border: 1px solid #CF770B;*/
-	margin: 240px 0px 0px -78px;
+	margin: 205px 0px 0px -78px;
     background: #efb46e;
 	margin-right: 100px;
 }
@@ -815,9 +815,10 @@ margin: 0px 40px 50px 0px;
     height: 55px;
     /*边框阴影*/
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    margin: 200px 9px 5px 0px;
+    margin: 92px 9px 5px 0px;
     background: #efb46e;
 }
+
 .anniu1 {
 	width: 71px;
 	background: #db5e26;

@@ -31,10 +31,10 @@
 						<a href="<%=basePath%>shop/index">首页</a>
 					</li>
 					<li>
-						<a href="jieshao.html">餐厅介绍</a>
+						<a href="<%=basePath%>jsp/shop/jieshao.html">餐厅介绍</a>
 					</li>
 					<li>
-						<a href="#">开台</a>
+						<a href="<%=basePath%>jsp/shop/signin1.html">开台</a>
 					</li>
 				</ul>
 			</div>
@@ -141,7 +141,7 @@
 
 	<div id="top2">
 		<div class="anniu6">
-			<a href="<%=basePath%>jsp/shop/shopping.jsp">
+			<a href="<%=basePath%>jsp/shop/shopping.html">
 				<div class="dibuzi">我的菜单</div>
 			</a>
 		</div>
