@@ -198,7 +198,7 @@
 .tp2 {
 	width: 250px;
 	height: 500px;
-	border: 1px solid #c5c1b9;
+
 	margin: 10px 9px 5px 10px;
 	float: left;
 }
@@ -624,27 +624,102 @@ box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 	height: 560px;
 
 	/*border: 1px solid #c5c1b9;*/
-	margin: 12px 10px 10px 90px;
+	margin: 10px 10px 10px 90px;
 	border-radius: 2px;
 	text-decoration: none;
 	background-color:#f9f7eb ;
 	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
 
 }
+
+.tscd{
+	width:500px;
+	height: 130px;
+	margin: 10px 0px 0px 170px;
+
+	background: #f7e1b5;
+
+
+
+}
+/*.tse5{
+	font-family: "Apple Color Emoji";
+	font-size: 20px;
+	color:red;
+	margin: -129px 0px 0px 12px;
+
+	font-weight: bold;
+}*/
 .tsc{
 	width:273px;
 	height: 370px;
 	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
 	float: right;
-	margin-top: 120px ;
+	margin-top: 30px ;
+	background: #f1a61f;
 }
 
 .tse1{
 	width:250px;
 	height: 190px;
-
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
 	margin: 9px 0px 0px 12px;
 }
+/*字体修改*/
+.tse2{
+	font-family: '华文宋体';
+	font-size: 20px;
+	float: left;
+	margin: 5px 0px 0px 9px;
+	font-weight: bold;
+}
+/*字体修改*/
+.tse4{
+	font-family: '华文宋体';
+	font-size: 20px;
+	color:red;
+	margin: 10px 0px 0px -50px;
+	font-weight: bold;
+}
+.tse3{
 
+	font-size: 14px;
+	float: left;
+	margin:1px 0px 0px 9px;
+
+}
+.zja{
+	width:248px;
+	float: right;
+	height: 129px;
+
+	text-align: center;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 20px;
+	border-radius: 10px;
+
+
+
+}
+
+.zjzt{
+
+	font-size: 24px;
+	font-family: Batang;
+	font-weight: bold;
+	color: #f88e11;
+	text-shadow:3px 1px 4px #6c757d;
+	margin:50px 0px 0px -100px;
+
+	line-height: 130px;
+
+}
+.zja1{
+	width:248px;
+	height: 129px;
+	float: right;
+
+
+}
 
 

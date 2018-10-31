@@ -161,7 +161,7 @@
 			</a>
 		</div>
 		<div class="anniu2">
-			<a href="#">
+			<a href="<%=basePath%>jsp/shop/enen.html">
 				<div class="dibuzi">今日推荐</div>
 			</a>
 		</div>
