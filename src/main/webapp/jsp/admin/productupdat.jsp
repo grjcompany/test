@@ -91,7 +91,7 @@
         </div>
        <div class="layui-form-item">
          <div class="layui-inline">
-            <label class="layui-form-label">总计</label>
+            <label class="layui-form-label">商品详情</label>
             <div class="layui-input-inline">
                <input name="total" type="text" class="dfinput" value="${requestScope.p.total}"/><i></i></li>
             </div>
