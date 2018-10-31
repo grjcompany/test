@@ -141,7 +141,7 @@
 
 	<div id="top2">
 		<div class="anniu6">
-			<a href="<%=basePath%>jsp/shop/shopping.jsp">
+			<a href="<%=basePath%>jsp/shop/shopping.html">
 				<div class="dibuzi">我的菜单</div>
 			</a>
 		</div>
